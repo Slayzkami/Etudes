@@ -16,7 +16,7 @@ Numérote les chapitres (`01-`, `02-`…) pour qu'ils restent dans l'ordre.
 ## Matières
 | Matière | Dossier |
 |---|---|
-| GAC — Groupes, Anneaux, Corps | [gac](gac/) |
+| GAC — Groupes, Anneaux, Corps | [gac](gac/) · [index](gac/index-definitions.md) |
 | Topologie | [topologie](topologie/) |
 | Intégration 1 | [integration-1](integration-1/) |
 | Calcul Différentiel | [calcul-differentiel](calcul-differentiel/) |
