@@ -61,6 +61,7 @@ tags:
 6. Exercice type : montrer que $(\mathbb R\setminus\{-1\},\ a+b+ab)$ est un groupe → [[montrer-groupe]].
 
 ## 🔗 Pour aller plus loin
+- Corrigés rédigés : [[exercices-types-corriges]] (ex. 4) · fiche : [[fiche-definitions]]
 - Précédent : [[00-rappels-relations-equivalence]] · Suivant : [[02-sous-groupes]]
 - TD1 : ex. 1 (monoïde), 2 (calculs), 4 ($\mathbb Z$-module), 15–16 ($D_3$, $D_4$)
 - Sources : polycopié `GAC-Chap1-Groupes` (partie I), cours rédigé, correction du TD1 → dossier [fichiers](fichiers/)

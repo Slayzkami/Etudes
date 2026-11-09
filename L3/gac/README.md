@@ -17,6 +17,13 @@ tags:
 |---|---|
 | Jeudi 12 novembre | Partiel (1 h 30, sans document) |
 
+## 🚀 Par où commencer (révision du partiel)
+1. 📅 [[plan-de-revision|Plan de révision]] : le programme jour par jour, à cocher.
+2. 📘 [[fiche-definitions|Toutes les définitions sur une page]], puis ⭐ [[fiche-theoremes|tous les énoncés]].
+3. 🛠️ La base du calcul : [[calculer-dans-znz|calculer dans Z/nZ]].
+4. ✍️ [[exercices-types-corriges|Exercices types corrigés]] : énoncé visible, correction repliée.
+5. 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]] : à relire juste avant l'épreuve.
+
 ## 🧭 Pour retrouver une notion
 - 🗂️ **[[index-definitions|Index des définitions, théorèmes et méthodes]]** : le point d'entrée.
 - 🧩 [[exemples-de-groupes|Catalogue des groupes à connaître]].
@@ -34,6 +41,7 @@ L3/gac/
 ├── definitions/             ← une note par définition
 ├── theoremes/               ← énoncés + démonstrations repliables
 ├── methodes/                ← recettes pour les exercices
+├── revision/                ← plan, fiches d'une page, exercices corrigés, mes erreurs
 └── fichiers/                ← PDF (polycopiés, TD, sujets, cours rédigé)
 ```
 
@@ -47,7 +55,7 @@ L3/gac/
 
 ## 🎯 Priorités pour le partiel (d'après les sujets)
 1. Vrai/Faux justifiés → [[vrai-faux-classiques]]
-2. $\mathbb Z/n\mathbb Z$ : ordres, sous-groupes, treillis → [[calculer-ordre]], [[lister-sous-groupes-znz]]
+2. $\mathbb Z/n\mathbb Z$ : ordres, sous-groupes, treillis → [[calculer-dans-znz]], [[calculer-ordre]], [[lister-sous-groupes-znz]]
 3. Morphisme sur un quotient + premier théorème d'isomorphisme → [[morphisme-sur-quotient]], [[identifier-quotient]]
 4. Loi « exotique » → [[montrer-groupe]]
 5. Morphismes de $\mathbb Z$ → [[endomorphismes-de-z]]

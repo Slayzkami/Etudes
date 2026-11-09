@@ -32,3 +32,4 @@ tags:
 
 - **Utilisé par (théorèmes)** : [[sous-groupes-de-z|Sous-groupes de (Z,+)]]
 - **Voir aussi** : [[intersection-sous-groupes|Intersection et réunion de sous-groupes]]
+- **Avant** : [[calculer-dans-znz|Méthode : calculer dans Z/nZ (la base)]] · **Corrigé** : [[exercices-types-corriges#1. Ordres et sous-groupes de Z/18Z|sous-groupes de Z/18Z]]

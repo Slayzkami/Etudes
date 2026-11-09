@@ -32,3 +32,4 @@ tags:
 - **S'appuie sur** : [[ordre-element|Ordre d'un élément]]
 - **Méthodes** : [[calculer-ordre|Méthode : calculer l'ordre d'un élément]]
 - **Voir aussi** : [[lister-sous-groupes-znz|Méthode : lister les sous-groupes de Z/nZ (treillis)]]
+- **Base** : [[calculer-dans-znz|Méthode : calculer dans Z/nZ (la base)]] · **Pièges** : [[mes-erreurs|Mes erreurs à ne plus faire]]

@@ -75,6 +75,7 @@ tags:
 6. Pourquoi Klein n'est-il pas cyclique ?
 
 ## 🔗 Pour aller plus loin
+- Corrigés rédigés : [[exercices-types-corriges]] (ex. 1, 2, 5, 7) · base : [[calculer-dans-znz]] · pièges : [[mes-erreurs]]
 - Précédent : [[01-definitions-generales]] · Suivant : [[03-groupes-quotients]]
 - TD1 : ex. 3, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
 - Sources : polycopié `GAC-Chap1-Groupes` (partie II), cours rédigé, correction du TD1 → dossier [fichiers](fichiers/)
