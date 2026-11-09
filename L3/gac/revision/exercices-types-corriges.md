@@ -94,7 +94,11 @@ Méthodes : [[calculer-dans-znz]], [[calculer-ordre]], [[lister-sous-groupes-znz
 ## 3. Morphisme Z/18Z → Z/6Z et quotient
 
 **Énoncé.** Soit $f:\mathbb Z/18\mathbb Z\to\mathbb Z/6\mathbb Z$, $x+18\mathbb Z\mapsto x+6\mathbb Z$.
-a) Montrer que $f$ est bien définie. b) Montrer que $f$ est un morphisme de groupes. c) Déterminer $\mathrm{Ker}\,f$ et $\mathrm{Im}\,f$. d) En déduire un isomorphisme. e) $\mathbb Z/6\mathbb Z$ est-il un sous-groupe de $\mathbb Z/18\mathbb Z$ ? Les deux groupes sont-ils isomorphes ?
+a) Montrer que $f$ est bien définie. 
+b) Montrer que $f$ est un morphisme de groupes. 
+c) Déterminer $\mathrm{Ker}\,f$ et $\mathrm{Im}\,f$. 
+d) En déduire un isomorphisme. 
+e) $\mathbb Z/6\mathbb Z$ est-il un sous-groupe de $\mathbb Z/18\mathbb Z$ ? Les deux groupes sont-ils isomorphes ?
 
 Méthode : [[morphisme-sur-quotient]].
 
