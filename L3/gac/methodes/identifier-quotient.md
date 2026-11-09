@@ -32,3 +32,4 @@ tags:
 
 - **Utilisé par (théorèmes)** : [[premier-theoreme-isomorphisme|Premier théorème d'isomorphisme]]
 - **Voir aussi** : [[groupe-quotient|Groupe quotient]], [[morphisme-sur-quotient|Méthode : application définie sur un quotient (bien définie, morphisme)]]
+- **Corrigé** : [[exercices-types-corriges#8. Identifier un quotient|R*/{±1} rédigé en entier]]

@@ -41,3 +41,4 @@ tags:
 - **Utilisé par (définitions)** : [[groupe-monogene-cyclique|Groupe monogène, groupe cyclique]]
 - **Utilisé par (théorèmes)** : [[ordre-dans-znz|Ordre d'un élément de Z/nZ]], [[structure-groupes-monogenes|Structure des groupes monogènes]], [[lagrange|Théorème de Lagrange]]
 - **Voir aussi** : [[calculer-ordre|Méthode : calculer l'ordre d'un élément]]
+- **Base** : [[calculer-dans-znz|Méthode : calculer dans Z/nZ (la base)]] · **Pièges** : [[mes-erreurs|Mes erreurs à ne plus faire]]

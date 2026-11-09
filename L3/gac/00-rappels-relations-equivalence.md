@@ -55,5 +55,6 @@ tags:
 4. Peut-on définir $\mathbb Z/4\mathbb Z\to\mathbb Z/3\mathbb Z$, $\bar k\mapsto\bar k$ ? Pourquoi ?
 
 ## 🔗 Pour aller plus loin
+- Corrigés rédigés : [[exercices-types-corriges]] (ex. 6) · fiche : [[fiche-definitions]]
 - Chapitre suivant : [[01-definitions-generales]]
 - Sources : polycopié `GAC-Chap1-Groupes` ; feuille `GAC-Feuille0-Revisions` ; cours rédigé (partie « Rappels ») → dossier [fichiers](fichiers/)

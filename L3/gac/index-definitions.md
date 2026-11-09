@@ -10,6 +10,13 @@ tags:
 
 Point d'entrée pour retrouver n'importe quelle notion. Dans Obsidian : `Ctrl/Cmd + O` puis tape le nom (les alias marchent : « distingué », « Ker », « Lagrange »…). · Retour à la [[L3/gac/README|fiche matière]]
 
+## 🚀 Révision express (partiel du 12 novembre)
+
+- 📅 [[plan-de-revision|Plan de révision]] : quoi faire, jour par jour
+- 📘 [[fiche-definitions|Toutes les définitions sur une page]] · ⭐ [[fiche-theoremes|Tous les énoncés sur une page]]
+- ✍️ [[exercices-types-corriges|Exercices types corrigés]] (rédactions modèles)
+- ✅ [[vrai-faux-classiques|Vrai/Faux classiques]] · 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]]
+
 ## 📘 Définitions par chapitre
 
 ### [[00-rappels-relations-equivalence|Rappels – Relations d'équivalence]]
@@ -100,6 +107,7 @@ Point d'entrée pour retrouver n'importe quelle notion. Dans Obsidian : `Ctrl/Cm
 - [[montrer-groupe|Méthode : montrer qu'un ensemble muni d'une loi est un groupe]]
 - [[montrer-sous-groupe|Méthode : montrer qu'une partie est un sous-groupe]]
 - [[montrer-distingue|Méthode : montrer qu'un sous-groupe est (ou n'est pas) distingué]]
+- [[calculer-dans-znz|Méthode : calculer dans Z/nZ (la base)]]
 - [[calculer-ordre|Méthode : calculer l'ordre d'un élément]]
 - [[lister-sous-groupes-znz|Méthode : lister les sous-groupes de Z/nZ (treillis)]]
 - [[morphisme-sur-quotient|Méthode : application définie sur un quotient (bien définie, morphisme)]]

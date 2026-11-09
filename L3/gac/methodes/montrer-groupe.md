@@ -28,3 +28,4 @@ tags:
 ## 🔗 Liens
 
 - **Voir aussi** : [[groupe|Groupe]], [[morphisme-de-groupes|Morphisme de groupes]]
+- **Corrigé** : [[exercices-types-corriges#4. Loi exotique a ⋆ b = a + b + ab|loi exotique rédigée en entier]]

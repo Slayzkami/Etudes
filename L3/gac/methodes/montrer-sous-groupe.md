@@ -28,3 +28,4 @@ tags:
 
 - **Méthodes** : [[montrer-groupe|Méthode : montrer qu'un ensemble muni d'une loi est un groupe]]
 - **Voir aussi** : [[caracterisation-sous-groupe|Caractérisations d'un sous-groupe]], [[sous-groupe|Sous-groupe]]
+- **Corrigé** : [[exercices-types-corriges#7. Montrer qu'une partie est un sous-groupe|U_n rédigé en entier]]

@@ -32,3 +32,4 @@ tags:
 
 - **Utilisé par (définitions)** : [[ensemble-quotient|Ensemble quotient et projection canonique]]
 - **Voir aussi** : [[groupe-quotient|Groupe quotient]], [[identifier-quotient|Méthode : identifier un groupe quotient G/H]]
+- **Corrigé** : [[exercices-types-corriges#3. Morphisme Z/18Z → Z/6Z et quotient|morphisme Z/18Z → Z/6Z rédigé en entier]]

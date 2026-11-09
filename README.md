@@ -16,7 +16,7 @@ Tout mon travail d'études au même endroit : cours, projets et recherches.
 ## 🔎 En cours
 
 ### L3
-- [GAC — Groupes, Anneaux, Corps](L3/gac/) · chapitre 1 (groupes) : définitions, théorèmes, méthodes · [index des notions](L3/gac/index-definitions.md) · 📅 partiel jeudi 12 novembre
+- [GAC — Groupes, Anneaux, Corps](L3/gac/) · chapitre 1 (groupes) : définitions, théorèmes, méthodes · [index des notions](L3/gac/index-definitions.md) · [plan de révision](L3/gac/revision/plan-de-revision.md) · [exercices corrigés](L3/gac/revision/exercices-types-corriges.md) · 📅 partiel jeudi 12 novembre
 - [Topologie](L3/topologie/)
 - [Intégration 1](L3/Int%C3%A9gration%201/)
 - [Calcul Différentiel](L3/Calcul%20Diff%C3%A9rentiel/)

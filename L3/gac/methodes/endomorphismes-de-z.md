@@ -31,3 +31,4 @@ tags:
 
 - **Utilisé par (théorèmes)** : [[proprietes-morphismes|Propriétés des morphismes]], [[sous-groupes-de-z|Sous-groupes de (Z,+)]]
 - **Voir aussi** : [[morphisme-de-groupes|Morphisme de groupes]]
+- **Corrigé** : [[exercices-types-corriges#5. Endomorphismes de (Z, +)|endomorphismes de Z rédigés en entier]]

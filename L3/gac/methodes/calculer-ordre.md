@@ -26,3 +26,4 @@ tags:
 
 - **Utilisé par (définitions)** : [[groupe-produit|Groupe produit]]
 - **Voir aussi** : [[ordre-element|Ordre d'un élément]], [[ordre-dans-znz|Ordre d'un élément de Z/nZ]]
+- **Avant** : [[calculer-dans-znz|Méthode : calculer dans Z/nZ (la base)]] · **Corrigé** : [[exercices-types-corriges#1. Ordres et sous-groupes de Z/18Z|ordres dans Z/18Z]] · **Pièges** : [[mes-erreurs|Mes erreurs à ne plus faire]]

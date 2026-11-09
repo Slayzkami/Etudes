@@ -62,6 +62,7 @@ tags:
 5. Identifier $\mathbb R/\mathbb Z$ et $\mathbb R^*/\{\pm1\}$.
 
 ## 🔗 Pour aller plus loin
+- Corrigés rédigés : [[exercices-types-corriges]] (ex. 3, 8, 9) · Vrai/Faux : [[vrai-faux-classiques]]
 - Précédent : [[02-sous-groupes]]
 - Sujets d'entraînement : contrôle de seconde session 2025 (ex. 1, 3, 4), examen blanc n°1 (à faire en conditions réelles)
 - Sources : polycopié `GAC-Chap1-Groupes` (partie III), cours rédigé → dossier [fichiers](fichiers/)
