@@ -18,9 +18,9 @@ Tout mon travail d'études au même endroit : cours, projets et recherches.
 ### L3
 - [GAC — Groupes, Anneaux, Corps](L3/gac/) · chapitre 1 (groupes) : définitions, théorèmes, méthodes · [index des notions](L3/gac/index-definitions.md) · 📅 partiel jeudi 12 novembre
 - [Topologie](L3/topologie/)
-- [Intégration 1](L3/integration-1/)
-- [Calcul Différentiel](L3/calcul-differentiel/)
-- [Analyse Numérique 1](L3/analyse-numerique-1/)
+- [Intégration 1](L3/Int%C3%A9gration%201/)
+- [Calcul Différentiel](L3/Calcul%20Diff%C3%A9rentiel/)
+- [Analyse Numérique 1](L3/Analyse%20Num%C3%A9rique%201/)
 
 ### Projets
 - *(aucun projet pour l'instant)*

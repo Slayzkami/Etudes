@@ -8,7 +8,8 @@ Ce dépôt est le carnet d'études de Slayzkami (actuellement en L3). Tout est r
 - Recherches → `recherches/<sujet>/notes.md` (modèle `modeles/sujet-recherche.md`). Les sources importantes vont dans `recherches/<sujet>/sources/` (modèle `modeles/fiche-source.md`).
 - Idées en vrac → `inbox.md`.
 - Ce qui est terminé → déplacé dans `archives/`.
-- Noms de fichiers et dossiers : minuscules, sans accents, mots séparés par des tirets (sauf les dossiers d'année comme `L3`).
+- Noms de fichiers : minuscules, sans accents, mots séparés par des tirets. Les dossiers de matières peuvent garder le nom choisi par Slayzkami (ex : `L3/Intégration 1/`) : ne pas les renommer.
+- Slayzkami utilise Obsidian avec synchronisation Git automatique : toujours faire `git pull` avant de modifier quoi que ce soit.
 
 ## À chaque ajout
 - Mettre à jour le sommaire du `README.md` racine (section « En cours » ou « Terminé ») et le `README.md` du dossier concerné.

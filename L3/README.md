@@ -18,6 +18,6 @@ Numérote les chapitres (`01-`, `02-`…) pour qu'ils restent dans l'ordre.
 |---|---|
 | GAC — Groupes, Anneaux, Corps | [gac](gac/) · [index](gac/index-definitions.md) |
 | Topologie | [topologie](topologie/) |
-| Intégration 1 | [integration-1](integration-1/) |
-| Calcul Différentiel | [calcul-differentiel](calcul-differentiel/) |
-| Analyse Numérique 1 | [analyse-numerique-1](analyse-numerique-1/) |
+| Intégration 1 | [Intégration 1](Int%C3%A9gration%201/) |
+| Calcul Différentiel | [Calcul Différentiel](Calcul%20Diff%C3%A9rentiel/) |
+| Analyse Numérique 1 | [Analyse Numérique 1](Analyse%20Num%C3%A9rique%201/) |

@@ -19,7 +19,7 @@ tags:
 
 | Affirmation | Réponse | Justification |
 |---|---|---|
-| Tout groupe abélien est cyclique | **Faux** | Klein : abélien, aucun élément d'ordre 4 → [[groupe-abelien]] |
+| Tout groupe abélien est cyclique | **Faux** | Klein $K=(\mathbb Z/2\mathbb Z)^2$ est abélien (calcul coordonnée par coordonnée) ; mais $2x=0$ pour tout $x\in K$, donc $o(x)\le2$ et $\langle x\rangle$ a au plus 2 éléments $\neq K$ (4 éléments) : non cyclique → [[groupe-abelien]] |
 | Tout groupe cyclique est abélien | **Vrai** | $a^ka^l=a^{k+l}=a^la^k$ → [[groupe-monogene-cyclique]] |
 | $(M_2(\mathbb R),\times)$ est un groupe | **Faux** | $\begin{pmatrix}0&0\\0&0\end{pmatrix}$ n'est pas inversible |
 | $(M_2(\mathbb R),+)$ est un groupe abélien | **Vrai** | addition coefficient par coefficient, neutre $0$, opposé $-M$ |
