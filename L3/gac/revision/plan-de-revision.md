@@ -22,11 +22,11 @@ tags:
 > Chacun est rédigé en entier dans [[exercices-types-corriges]]. Pour savoir quelle méthode sortir : [[reconnaitre-exercice]].
 
 ## Lundi 9 (soir) – poser les bases
-- [ ] Réécrire les définitions avec la [[fiche-definitions]] (à la main, quantificateurs compris)
+- [x] Réécrire les définitions avec la [[fiche-definitions]] (à la main, quantificateurs compris)
 - [x] Calcul dans $\mathbb Z/12\mathbb Z$ : addition, opposé → [[calculer-dans-znz]]
 - [x] Ordres dans $\mathbb Z/18\mathbb Z$ : $o(\overline{12})=3$, $o(\overline{15})=6$ → [[calculer-ordre]]
 - [x] Abélien ≠ cyclique (Klein) → [[groupe-abelien]]
-- [ ] Finir : $\langle\bar6\rangle$ dans $\mathbb Z/18\mathbb Z$, puis liste des sous-groupes ([[exercices-types-corriges#1. Ordres et sous-groupes de Z/18Z|exercice 1]])
+- [x] Finir : $\langle\bar6\rangle$ dans $\mathbb Z/18\mathbb Z$, puis liste des sous-groupes ([[exercices-types-corriges#1. Ordres et sous-groupes de Z/18Z|exercice 1]])
 
 ## Mardi 10 – points faibles + Vrai/Faux
 - [ ] Relire [[mes-erreurs]]
