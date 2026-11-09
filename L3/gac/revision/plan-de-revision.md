@@ -19,7 +19,7 @@ tags:
 > 4. **Loi exotique** : montrer que c'est un groupe → [[montrer-groupe]]
 > 5. **Morphismes de $\mathbb Z$** → [[endomorphismes-de-z]]
 >
-> Chacun est rédigé en entier dans [[exercices-types-corriges]].
+> Chacun est rédigé en entier dans [[exercices-types-corriges]]. Pour savoir quelle méthode sortir : [[reconnaitre-exercice]].
 
 ## Lundi 9 (soir) – poser les bases
 - [ ] Réécrire les définitions avec la [[fiche-definitions]] (à la main, quantificateurs compris)
@@ -33,6 +33,7 @@ tags:
 - [ ] Sous-groupes de $\mathbb Z/12\mathbb Z$ et $\mathbb Z/18\mathbb Z$ avec le treillis → [[lister-sous-groupes-znz]]
 - [ ] Réunion de deux sous-groupes ([[exercices-types-corriges#2. Réunion de deux sous-groupes|exercice 2]])
 - [ ] Sous-groupe : caractérisation + un exemple ([[exercices-types-corriges#7. Montrer qu'une partie est un sous-groupe|exercice 7]])
+- [ ] Classes et indice ([[exercices-types-corriges#12. Classes, indice et quotient|exercice 12]]), sous-groupes de $\mathfrak S_3$ ([[exercices-types-corriges#14. Sous-groupes de S3|exercice 14]])
 - [ ] Les 16 Vrai/Faux, en cachant la colonne de droite → [[vrai-faux-classiques]]
 - [ ] Par cœur : [[fiche-theoremes]] (énoncés), démonstration de [[lagrange]]
 
@@ -40,6 +41,7 @@ tags:
 - [ ] Morphisme $\mathbb Z/18\mathbb Z\to\mathbb Z/6\mathbb Z$ ([[exercices-types-corriges#3. Morphisme Z/18Z → Z/6Z et quotient|exercice 3]])
 - [ ] Loi exotique ([[exercices-types-corriges#4. Loi exotique a ⋆ b = a + b + ab|exercice 4]])
 - [ ] Endomorphismes de $\mathbb Z$ ([[exercices-types-corriges#5. Endomorphismes de (Z, +)|exercice 5]])
+- [ ] Étudier un morphisme ([[exercices-types-corriges#10. Étudier un morphisme|exercice 10]]), morphismes $\mathbb Z/4\mathbb Z\to\mathbb Z/6\mathbb Z$ ([[exercices-types-corriges#18. Morphismes de Z/4Z dans Z/6Z|exercice 18]])
 - [ ] Identifier un quotient ([[exercices-types-corriges#8. Identifier un quotient|exercice 8]])
 
 ## Mercredi 11 (après-midi) – conditions réelles

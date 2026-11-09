@@ -39,3 +39,4 @@ tags:
 - **Utilisé par (définitions)** : [[application-induite|Application induite et décomposition canonique]]
 - **Utilisé par (théorèmes)** : [[noyau-et-image|Noyau distingué, image sous-groupe, injectivité]], [[premier-theoreme-isomorphisme|Premier théorème d'isomorphisme]]
 - **Voir aussi** : [[identifier-quotient|Méthode : identifier un groupe quotient G/H]]
+- **Méthode** : [[montrer-morphisme|étudier un morphisme (noyau, image, injectif, surjectif)]]

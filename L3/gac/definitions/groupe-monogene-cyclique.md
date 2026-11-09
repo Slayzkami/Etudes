@@ -40,3 +40,4 @@ tags:
 - **Utilisé par (théorèmes)** : [[structure-groupes-monogenes|Structure des groupes monogènes]]
 - **Méthodes** : [[vrai-faux-classiques|Vrai/Faux classiques (avec justification)]]
 - **Voir aussi** : [[ordre-dans-znz|Ordre d'un élément de Z/nZ]], [[groupe-ordre-premier|Groupe d'ordre premier]]
+- **Méthode** : [[montrer-cyclique|montrer qu'un groupe est cyclique (ou non), générateurs]]

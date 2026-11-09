@@ -14,7 +14,8 @@ Point d'entrée pour retrouver n'importe quelle notion. Dans Obsidian : `Ctrl/Cm
 
 - 📅 [[plan-de-revision|Plan de révision]] : quoi faire, jour par jour
 - 📘 [[fiche-definitions|Toutes les définitions sur une page]] · ⭐ [[fiche-theoremes|Tous les énoncés sur une page]]
-- ✍️ [[exercices-types-corriges|Exercices types corrigés]] (rédactions modèles)
+- 🧭 [[reconnaitre-exercice|Reconnaître le type d'exercice]] : énoncé → méthode → première phrase
+- ✍️ [[exercices-types-corriges|Exercices types corrigés]] (19 rédactions modèles)
 - ✅ [[vrai-faux-classiques|Vrai/Faux classiques]] · 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]]
 
 ## 📘 Définitions par chapitre
@@ -105,12 +106,17 @@ Point d'entrée pour retrouver n'importe quelle notion. Dans Obsidian : `Ctrl/Cm
 ## 🛠️ Méthodes (recettes pour les exercices)
 
 - [[montrer-groupe|Méthode : montrer qu'un ensemble muni d'une loi est un groupe]]
+- [[montrer-relation-equivalence|Méthode : relation d'équivalence, classes et quotient]]
 - [[montrer-sous-groupe|Méthode : montrer qu'une partie est un sous-groupe]]
 - [[montrer-distingue|Méthode : montrer qu'un sous-groupe est (ou n'est pas) distingué]]
+- [[montrer-morphisme|Méthode : étudier un morphisme (morphisme, noyau, image, injectif, surjectif)]]
 - [[calculer-dans-znz|Méthode : calculer dans Z/nZ (la base)]]
 - [[calculer-ordre|Méthode : calculer l'ordre d'un élément]]
 - [[lister-sous-groupes-znz|Méthode : lister les sous-groupes de Z/nZ (treillis)]]
+- [[montrer-cyclique|Méthode : montrer qu'un groupe est cyclique (ou ne l'est pas), trouver ses générateurs]]
 - [[morphisme-sur-quotient|Méthode : application définie sur un quotient (bien définie, morphisme)]]
+- [[classes-et-indice|Méthode : déterminer les classes modulo un sous-groupe, l'indice et le quotient]]
+- [[utiliser-lagrange|Méthode : utiliser le théorème de Lagrange]]
 - [[identifier-quotient|Méthode : identifier un groupe quotient G/H]]
 - [[montrer-non-isomorphes|Méthode : montrer que deux groupes ne sont pas isomorphes]]
 - [[endomorphismes-de-z|Méthode : morphismes de source Z (endomorphismes de (Z,+))]]
