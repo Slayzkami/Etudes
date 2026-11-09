@@ -8,15 +8,23 @@
 - 
 - 
 
-## 📝 Notes
-### Partie 1
+## 📐 Définitions
+> **Définition (nom).** Soit $E$ un ensemble…
 
-### Partie 2
+## 🧱 Théorèmes, propositions, lemmes
+> **Théorème (nom).** Énoncé.
+>
+> *Hypothèses à ne pas oublier :* 
 
-## 🔑 Définitions / formules à retenir
-| Terme | Définition |
-|---|---|
-|  |  |
+## ✍️ Démonstrations à savoir refaire
+- [ ] Théorème … — idée clé :
+
+## 🔍 Exemples et contre-exemples
+- **Exemple :** 
+- **Contre-exemple :** (ce qui casse si on enlève une hypothèse)
+
+## 🛠️ Méthodes / réflexes pour les exercices
+- Pour montrer que …, on …
 
 ## ❓ Ce que je n'ai pas compris
 - 
@@ -26,5 +34,6 @@
 2. 
 3. 
 
-## 🔗 Pour aller plus loin
-- 
+## 🔗 Liens
+- Chapitres liés : [[ ]]
+- Ressources : 

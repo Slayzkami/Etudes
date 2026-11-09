@@ -14,4 +14,10 @@ L3/
 Numérote les chapitres (`01-`, `02-`…) pour qu'ils restent dans l'ordre.
 
 ## Matières
-- *(aucune pour l'instant)*
+| Matière | Dossier |
+|---|---|
+| GAC — Groupes, Anneaux, Corps | [gac](gac/) |
+| Topologie | [topologie](topologie/) |
+| Intégration 1 | [integration-1](integration-1/) |
+| Calcul Différentiel | [calcul-differentiel](calcul-differentiel/) |
+| Analyse Numérique 1 | [analyse-numerique-1](analyse-numerique-1/) |

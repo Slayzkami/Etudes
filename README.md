@@ -16,7 +16,11 @@ Tout mon travail d'études au même endroit : cours, projets et recherches.
 ## 🔎 En cours
 
 ### L3
-- *(aucune matière pour l'instant)*
+- [GAC — Groupes, Anneaux, Corps](L3/gac/)
+- [Topologie](L3/topologie/)
+- [Intégration 1](L3/integration-1/)
+- [Calcul Différentiel](L3/calcul-differentiel/)
+- [Analyse Numérique 1](L3/analyse-numerique-1/)
 
 ### Projets
 - *(aucun projet pour l'instant)*
@@ -41,5 +45,7 @@ Tout mon travail d'études au même endroit : cours, projets et recherches.
 8. **Nouvelle année ?** → crée un dossier `M1/` (ou autre) à côté de `L3/`.
 
 💡 **Noms de fichiers** : en minuscules, sans accents ni espaces, avec des tirets → `droit-des-contrats.md`, pas `Droit des Contrats.md`.
+
+💡 **Maths** : Obsidian et GitHub affichent les formules LaTeX → `$f(x)=x^2$` dans une ligne, `$$\int_0^1 f$$` en bloc.
 
 💡 **Avec Claude** : demande-lui une recherche, une fiche de cours ou un plan de projet en précisant « mets-le dans mon GitHub ». Il range tout au bon endroit et met ce sommaire à jour.
