@@ -46,3 +46,4 @@ tags:
 - **Utilisé par (théorèmes)** : [[proprietes-morphismes|Propriétés des morphismes]]
 - **Méthodes** : [[identifier-quotient|Méthode : identifier un groupe quotient G/H]]
 - **Voir aussi** : [[premier-theoreme-isomorphisme|Premier théorème d'isomorphisme]], [[endomorphismes-de-z|Méthode : morphismes de source Z (endomorphismes de (Z,+))]]
+- **Méthode** : [[montrer-morphisme|étudier un morphisme (noyau, image, injectif, surjectif)]]

@@ -22,6 +22,18 @@ Les exercices qui reviennent dans les sujets, rédigés comme sur une copie. **M
 > 7. [[#7. Montrer qu'une partie est un sous-groupe]]
 > 8. [[#8. Identifier un quotient]]
 > 9. [[#9. Groupe d'ordre premier]]
+> 10. [[#10. Étudier un morphisme]]
+> 11. [[#11. Ordres dans un produit]]
+> 12. [[#12. Classes, indice et quotient]]
+> 13. [[#13. Centre et sous-groupe distingué]]
+> 14. [[#14. Sous-groupes de S3]]
+> 15. [[#15. Groupe où tout élément vérifie x² = e]]
+> 16. [[#16. Automorphismes intérieurs]]
+> 17. [[#17. Ordre de l'inverse et d'un conjugué]]
+> 18. [[#18. Morphismes de Z/4Z dans Z/6Z]]
+> 19. [[#19. Intersection et somme de sous-groupes de Z]]
+>
+> Pour savoir quelle méthode sortir face à un énoncé : [[reconnaitre-exercice]].
 
 ---
 
@@ -227,9 +239,159 @@ Méthode : [[identifier-quotient]].
 > [!SUCCESS]- Correction
 > Comme $p\ge2$, il existe $x\in G$, $x\neq1$. Le sous-groupe $\langle x\rangle$ a un ordre qui divise $p$ ([[lagrange]]), donc égal à $1$ ou $p$. Comme $x\neq1$, $\langle x\rangle\neq\{1\}$, donc $\mathrm{Card}\,\langle x\rangle=p=\mathrm{Card}\,G$, d'où $\langle x\rangle=G$.
 > Donc $G$ est cyclique (et $G\simeq\mathbb Z/p\mathbb Z$, [[structure-groupes-monogenes]]). → [[groupe-ordre-premier]]
+---
+
+## 10. Étudier un morphisme
+
+**Énoncé.** Soit $f:(\mathbb C^*,\times)\to(\mathbb C^*,\times)$, $z\mapsto z/|z|$. Montrer que $f$ est un morphisme, déterminer son noyau et son image, et en déduire un isomorphisme.
+
+Méthode : [[montrer-morphisme]].
+
+> [!SUCCESS]- Correction
+> - **Morphisme.** Soient $z,z'\in\mathbb C^*$ : $f(zz')=\dfrac{zz'}{|zz'|}=\dfrac{z}{|z|}\cdot\dfrac{z'}{|z'|}=f(z)f(z')$.
+> - **Noyau.** $f(z)=1\iff z=|z|\iff z\in\mathbb R_+^*$. Donc $\mathrm{Ker}\,f=\mathbb R_+^*$ ; $f$ n'est pas injectif.
+> - **Image.** $|f(z)|=1$, donc $\mathrm{Im}\,f\subset\mathbb U$. Réciproquement, si $u\in\mathbb U$, $f(u)=u/1=u$. Donc $\mathrm{Im}\,f=\mathbb U$.
+> - **Conclusion.** Par le [[premier-theoreme-isomorphisme|premier théorème d'isomorphisme]] : $\mathbb C^*/\mathbb R_+^*\simeq\mathbb U$.
+
+---
+
+## 11. Ordres dans un produit
+
+**Énoncé.** Soit $G=\mathbb Z/2\mathbb Z\times\mathbb Z/4\mathbb Z$. a) Donner l'ordre de chaque élément. b) $G$ est-il cyclique ? Est-il isomorphe à $\mathbb Z/8\mathbb Z$ ?
+
+Méthodes : [[calculer-ordre]], [[montrer-cyclique]], [[montrer-non-isomorphes]].
+
+> [!SUCCESS]- Correction
+> a) $o(a,b)=\operatorname{ppcm}(o(a),o(b))$. Dans $\mathbb Z/2\mathbb Z$ : $o(\bar0)=1$, $o(\bar1)=2$. Dans $\mathbb Z/4\mathbb Z$ : $o(\bar0)=1$, $o(\bar1)=o(\bar3)=4$, $o(\bar2)=2$.
+>
+> | élément | $(\bar0,\bar0)$ | $(\bar0,\bar1)$ | $(\bar0,\bar2)$ | $(\bar0,\bar3)$ | $(\bar1,\bar0)$ | $(\bar1,\bar1)$ | $(\bar1,\bar2)$ | $(\bar1,\bar3)$ |
+> |---|---|---|---|---|---|---|---|---|
+> | ordre | 1 | 4 | 2 | 4 | 2 | 4 | 2 | 4 |
+>
+> b) $G$ a 8 éléments et aucun n'est d'ordre 8 : $G$ n'est pas cyclique. $\mathbb Z/8\mathbb Z$ est cyclique ($o(\bar1)=8$) ; un isomorphisme conserve l'ordre des éléments, donc $G\not\simeq\mathbb Z/8\mathbb Z$.
+
+---
+
+## 12. Classes, indice et quotient
+
+**Énoncé.** Dans $G=\mathbb Z/12\mathbb Z$, soit $H=\langle\bar4\rangle$. a) Donner $H$ et son indice. b) Écrire toutes les classes modulo $H$. c) À quel groupe connu $G/H$ est-il isomorphe ?
+
+Méthode : [[classes-et-indice]].
+
+> [!SUCCESS]- Correction
+> a) $H=\{\bar0,\bar4,\bar8\}$, $[H]=3$, $[G:H]=12/3=4$.
+> b) $H=\{\bar0,\bar4,\bar8\}$, $\bar1+H=\{\bar1,\bar5,\bar9\}$, $\bar2+H=\{\bar2,\bar6,\overline{10}\}$, $\bar3+H=\{\bar3,\bar7,\overline{11}\}$.
+> c) $G$ est abélien, donc $H\lhd G$ et $G/H$ est un groupe d'ordre 4.
+> **Avec un morphisme** : $f:\mathbb Z/12\mathbb Z\to\mathbb Z/4\mathbb Z$, $x+12\mathbb Z\mapsto x+4\mathbb Z$ est bien définie (car $4\mid12$), c'est un morphisme surjectif, et $\mathrm{Ker}\,f=\{\bar x\mid4\mid x\}=H$. Donc $G/H\simeq\mathbb Z/4\mathbb Z$.
+
+---
+
+## 13. Centre et sous-groupe distingué
+
+**Énoncé.** Soit $G$ un groupe et $Z(G)=\{z\in G\mid\forall g\in G,\ zg=gz\}$. Montrer que $Z(G)$ est un sous-groupe distingué de $G$.
+
+Méthodes : [[montrer-sous-groupe]], [[montrer-distingue]].
+
+> [!SUCCESS]- Correction
+> **Sous-groupe.**
+> - $e\in Z(G)$ car $eg=g=ge$ pour tout $g$.
+> - Soient $x,y\in Z(G)$ et $g\in G$. De $yg=gy$ on tire, en multipliant à gauche et à droite par $y^{-1}$ : $gy^{-1}=y^{-1}g$. Alors $(xy^{-1})g=x(y^{-1}g)=x(gy^{-1})=(xg)y^{-1}=g(xy^{-1})$. Donc $xy^{-1}\in Z(G)$.
+>
+> **Distingué.** Soient $g\in G$ et $z\in Z(G)$ : $g^{-1}zg=g^{-1}gz=z\in Z(G)$.
+>
+> Donc $Z(G)\lhd G$. → [[centre]]
+
+---
+
+## 14. Sous-groupes de S3
+
+**Énoncé.** Dans $\mathfrak S_3=\{e,\gamma,\gamma^2,\tau_1,\tau_2,\tau_3\}$ ($\gamma=(1\,2\,3)$, $\tau_1=(1\,2)$, $\tau_2=(1\,3)$, $\tau_3=(2\,3)$) : a) donner l'ordre de chaque élément ; b) donner tous les sous-groupes ; c) lesquels sont distingués ?
+
+Méthodes : [[utiliser-lagrange]], [[montrer-distingue]].
+
+> [!SUCCESS]- Correction
+> a) $o(e)=1$ ; $o(\tau_i)=2$ (car $\tau_i\neq e$ et $\tau_i^2=e$) ; $o(\gamma)=o(\gamma^2)=3$.
+> b) Par [[lagrange]], un sous-groupe est d'ordre 1, 2, 3 ou 6.
+> - ordre 1 : $\{e\}$ ; ordre 6 : $\mathfrak S_3$ ;
+> - ordre 2 (premier, donc engendré par un élément d'ordre 2) : $\{e,\tau_1\}$, $\{e,\tau_2\}$, $\{e,\tau_3\}$ ;
+> - ordre 3 (premier, donc engendré par un élément d'ordre 3) : $\{e,\gamma,\gamma^2\}$.
+>
+> Soit 6 sous-groupes.
+> c) $\{e\}$ et $\mathfrak S_3$ sont distingués. $\{e,\gamma,\gamma^2\}$ est d'indice $6/3=2$, donc distingué ([[indice-2-distingue]]).
+> $\{e,\tau_1\}$ ne l'est pas : $\tau_2^{-1}\tau_1\tau_2=\tau_2\tau_1\tau_2=\tau_3\notin\{e,\tau_1\}$. De même pour $\{e,\tau_2\}$ et $\{e,\tau_3\}$.
+
+---
+
+## 15. Groupe où tout élément vérifie x² = e
+
+**Énoncé.** Soit $G$ un groupe tel que $x^2=e$ pour tout $x\in G$. Montrer que $G$ est abélien.
+
+> [!SUCCESS]- Correction
+> Pour tout $x\in G$, $x\cdot x=e$ donc $x^{-1}=x$.
+> Soient $x,y\in G$. Alors $xy=(xy)^{-1}=y^{-1}x^{-1}=yx$ ([[regles-de-calcul]]).
+> Donc $G$ est abélien.
+
+---
+
+## 16. Automorphismes intérieurs
+
+**Énoncé.** Soit $G$ un groupe et $a\in G$. Montrer que $f_a:G\to G$, $x\mapsto axa^{-1}$ est un automorphisme de $G$.
+
+Méthode : [[montrer-morphisme]].
+
+> [!SUCCESS]- Correction
+> - **Morphisme.** Soient $x,y\in G$ : $f_a(x)f_a(y)=axa^{-1}aya^{-1}=axya^{-1}=f_a(xy)$.
+> - **Bijectif.** Pour tout $x$ : $f_{a^{-1}}(f_a(x))=a^{-1}(axa^{-1})a=x$ et de même $f_a(f_{a^{-1}}(x))=x$. Donc $f_a$ est bijective, de réciproque $f_{a^{-1}}$.
+>
+> Donc $f_a\in\mathrm{Aut}\,G$. → [[automorphismes]]
+
+---
+
+## 17. Ordre de l'inverse et d'un conjugué
+
+**Énoncé.** Soit $G$ un groupe, $x,y\in G$ avec $x$ d'ordre fini. Montrer que $o(x^{-1})=o(x)$ et $o(yxy^{-1})=o(x)$.
+
+> [!SUCCESS]- Correction
+> Soit $m\ge1$.
+> - $(x^{-1})^m=(x^m)^{-1}$, donc $(x^{-1})^m=e\iff x^m=e$.
+> - $(yxy^{-1})^m=yx^my^{-1}$ (les $y^{-1}y$ se simplifient), donc $(yxy^{-1})^m=e\iff x^m=y^{-1}y=e$.
+>
+> Dans les deux cas, les entiers $m\ge1$ qui conviennent sont les mêmes que pour $x$ ; le plus petit aussi. D'où l'égalité des ordres. → [[ordre-element]]
+
+---
+
+## 18. Morphismes de Z/4Z dans Z/6Z
+
+**Énoncé.** Déterminer tous les morphismes de groupes $f:\mathbb Z/4\mathbb Z\to\mathbb Z/6\mathbb Z$.
+
+Méthodes : [[endomorphismes-de-z]], [[morphisme-sur-quotient]].
+
+> [!SUCCESS]- Correction
+> **Analyse.** Soit $f$ un tel morphisme et $a=f(\bar1)$. Pour $x\in\mathbb Z$ : $f(\bar x)=f(x\cdot\bar1)=x\,a$ : $f$ est déterminé par $a$. De plus $4a=f(4\cdot\bar1)=f(\bar0)=\bar0$ dans $\mathbb Z/6\mathbb Z$.
+> On teste : $4\cdot\bar0=\bar0$ ✔, $4\cdot\bar1=\bar4$, $4\cdot\bar2=\bar2$, $4\cdot\bar3=\overline{12}=\bar0$ ✔, $4\cdot\bar4=\bar4$, $4\cdot\bar5=\bar2$. Donc $a\in\{\bar0,\bar3\}$.
+>
+> **Synthèse.** Soit $a\in\{\bar0,\bar3\}$ et $f_a:\bar x\mapsto x\,a$.
+> - Bien définie : si $\bar x=\bar y$ dans $\mathbb Z/4\mathbb Z$, $x-y=4k$, donc $xa-ya=k(4a)=\bar0$.
+> - Morphisme : $f_a(\bar x+\bar y)=(x+y)a=xa+ya$.
+>
+> **Conclusion.** Il y a exactement deux morphismes : le morphisme nul et $\bar x\mapsto x\cdot\bar3$.
+
+---
+
+## 19. Intersection et somme de sous-groupes de Z
+
+**Énoncé.** Déterminer $4\mathbb Z\cap6\mathbb Z$ et le sous-groupe $\langle4,6\rangle$ de $(\mathbb Z,+)$.
+
+> [!SUCCESS]- Correction
+> - $n\in4\mathbb Z\cap6\mathbb Z\iff4\mid n\text{ et }6\mid n\iff\operatorname{ppcm}(4,6)=12\mid n$. Donc $4\mathbb Z\cap6\mathbb Z=12\mathbb Z$.
+> - **Inclusion $\supset$** : $2=6-4\in\langle4,6\rangle$, et $\langle4,6\rangle$ est un sous-groupe, donc il contient tous les multiples de $2$ : $2\mathbb Z\subset\langle4,6\rangle$.
+> - **Inclusion $\subset$** : $2\mathbb Z$ est un sous-groupe de $\mathbb Z$ qui contient $4$ et $6$ ; or $\langle4,6\rangle$ est le **plus petit** sous-groupe contenant $4$ et $6$ : $\langle4,6\rangle\subset2\mathbb Z$.
+> - Donc $\langle4,6\rangle=2\mathbb Z=\operatorname{pgcd}(4,6)\,\mathbb Z$.
+>
+> → [[sous-groupe-engendre]], [[intersection-sous-groupes]]
 
 ## 🔗 Liens
 
 - Vrai/Faux rédigés : [[vrai-faux-classiques]]
 - Encore plus d'exercices : [correction du TD1](../fichiers/gac-td1-correction.pdf), [sujet 2025](../fichiers/gac-sujet-2025-seconde-session.pdf)
-- [[mes-erreurs]] · [[fiche-definitions]] · [[fiche-theoremes]]
+- [[reconnaitre-exercice]] · [[mes-erreurs]] · [[fiche-definitions]] · [[fiche-theoremes]]

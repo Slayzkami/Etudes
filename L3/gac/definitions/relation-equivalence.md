@@ -35,3 +35,4 @@ tags:
 
 - **Utilisé par (définitions)** : [[classe-equivalence|Classe d'équivalence]], [[classes-modulo-sous-groupe|Classes à gauche et à droite modulo un sous-groupe]], [[relation-compatible|Relation compatible avec une loi]]
 - **Voir aussi** : [[ensemble-quotient|Ensemble quotient et projection canonique]]
+- **Méthode** : [[montrer-relation-equivalence|relation d'équivalence, classes et quotient]]

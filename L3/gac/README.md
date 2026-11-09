@@ -21,8 +21,9 @@ tags:
 1. 📅 [[plan-de-revision|Plan de révision]] : le programme jour par jour, à cocher.
 2. 📘 [[fiche-definitions|Toutes les définitions sur une page]], puis ⭐ [[fiche-theoremes|tous les énoncés]].
 3. 🛠️ La base du calcul : [[calculer-dans-znz|calculer dans Z/nZ]].
-4. ✍️ [[exercices-types-corriges|Exercices types corrigés]] : énoncé visible, correction repliée.
-5. 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]] : à relire juste avant l'épreuve.
+4. 🧭 [[reconnaitre-exercice|Reconnaître le type d'exercice]] : quelle méthode sortir face à quel énoncé.
+5. ✍️ [[exercices-types-corriges|Exercices types corrigés]] (19) : énoncé visible, correction repliée.
+6. 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]] : à relire juste avant l'épreuve.
 
 ## 🧭 Pour retrouver une notion
 - 🗂️ **[[index-definitions|Index des définitions, théorèmes et méthodes]]** : le point d'entrée.

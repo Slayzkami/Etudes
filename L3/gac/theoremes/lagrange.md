@@ -39,3 +39,4 @@ tags:
 - **Utilisé par (théorèmes)** : [[groupe-ordre-premier|Groupe d'ordre premier]]
 - **Méthodes** : [[calculer-ordre|Méthode : calculer l'ordre d'un élément]], [[vrai-faux-classiques|Vrai/Faux classiques (avec justification)]]
 - **Voir aussi** : [[indice-2-distingue|Un sous-groupe d'indice 2 est distingué]]
+- **Méthode** : [[utiliser-lagrange|utiliser le théorème de Lagrange]]

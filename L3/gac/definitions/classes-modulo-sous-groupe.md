@@ -38,3 +38,4 @@ tags:
 - **S'appuie sur** : [[sous-groupe|Sous-groupe]], [[relation-equivalence|Relation d'équivalence]]
 - **Utilisé par (définitions)** : [[congruence-modulo-sous-groupe|Congruence modulo un sous-groupe]], [[indice|Indice d'un sous-groupe]]
 - **Utilisé par (théorèmes)** : [[relations-compatibles-groupe|Relations compatibles avec la loi d'un groupe]], [[lagrange|Théorème de Lagrange]]
+- **Méthode** : [[classes-et-indice|déterminer les classes, l'indice et le quotient]]
