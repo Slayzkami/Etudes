@@ -257,7 +257,9 @@ Méthode : [[montrer-morphisme]].
 
 ## 11. Ordres dans un produit
 
-**Énoncé.** Soit $G=\mathbb Z/2\mathbb Z\times\mathbb Z/4\mathbb Z$. a) Donner l'ordre de chaque élément. b) $G$ est-il cyclique ? Est-il isomorphe à $\mathbb Z/8\mathbb Z$ ?
+**Énoncé.** Soit $G=\mathbb Z/2\mathbb Z\times\mathbb Z/4\mathbb Z$. 
+a) Donner l'ordre de chaque élément. 
+b) $G$ est-il cyclique ? Est-il isomorphe à $\mathbb Z/8\mathbb Z$ ?
 
 Méthodes : [[calculer-ordre]], [[montrer-cyclique]], [[montrer-non-isomorphes]].
 
@@ -274,7 +276,10 @@ Méthodes : [[calculer-ordre]], [[montrer-cyclique]], [[montrer-non-isomorphes]]
 
 ## 12. Classes, indice et quotient
 
-**Énoncé.** Dans $G=\mathbb Z/12\mathbb Z$, soit $H=\langle\bar4\rangle$. a) Donner $H$ et son indice. b) Écrire toutes les classes modulo $H$. c) À quel groupe connu $G/H$ est-il isomorphe ?
+**Énoncé.** Dans $G=\mathbb Z/12\mathbb Z$, soit $H=\langle\bar4\rangle$. 
+a) Donner $H$ et son indice. 
+b) Écrire toutes les classes modulo $H$. 
+c) À quel groupe connu $G/H$ est-il isomorphe ?
 
 Méthode : [[classes-et-indice]].
 
