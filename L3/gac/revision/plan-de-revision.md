@@ -29,9 +29,9 @@ tags:
 - [x] Finir : $\langle\bar6\rangle$ dans $\mathbb Z/18\mathbb Z$, puis liste des sous-groupes ([[exercices-types-corriges#1. Ordres et sous-groupes de Z/18Z|exercice 1]])
 
 ## Mardi 10 – points faibles + Vrai/Faux
-- [ ] Relire [[mes-erreurs]]
+- [x] Relire [[mes-erreurs]]
 - [ ] Sous-groupes de $\mathbb Z/12\mathbb Z$ et $\mathbb Z/18\mathbb Z$ avec le treillis → [[lister-sous-groupes-znz]]
-- [ ] Réunion de deux sous-groupes ([[exercices-types-corriges#2. Réunion de deux sous-groupes|exercice 2]])
+- [x] Réunion de deux sous-groupes ([[exercices-types-corriges#2. Réunion de deux sous-groupes|exercice 2]])
 - [ ] Sous-groupe : caractérisation + un exemple ([[exercices-types-corriges#7. Montrer qu'une partie est un sous-groupe|exercice 7]])
 - [ ] Classes et indice ([[exercices-types-corriges#12. Classes, indice et quotient|exercice 12]]), sous-groupes de $\mathfrak S_3$ ([[exercices-types-corriges#14. Sous-groupes de S3|exercice 14]])
 - [ ] Les 16 Vrai/Faux, en cachant la colonne de droite → [[vrai-faux-classiques]]
