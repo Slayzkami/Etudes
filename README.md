@@ -19,7 +19,7 @@ Tout mon travail d'études au même endroit : cours, projets et recherches.
 - [GAC — Groupes, Anneaux, Corps](L3/gac/) · chapitre 1 (groupes) : définitions, théorèmes, méthodes · [index des notions](L3/gac/index-definitions.md) · [plan de révision](L3/gac/revision/plan-de-revision.md) · [exercices corrigés](L3/gac/revision/exercices-types-corriges.md) · 📅 partiel jeudi 12 novembre
 - [Topologie](L3/topologie/)
 - [Intégration 1](L3/Int%C3%A9gration%201/)
-- [Calcul Différentiel](L3/Calcul%20Diff%C3%A9rentiel/)
+- [Calcul Différentiel](L3/Calcul%20Diff%C3%A9rentiel/) · chapitres 1 à 5 : définitions, théorèmes, méthodes · [index des notions](L3/Calcul%20Diff%C3%A9rentiel/cd-index-definitions.md) · [plan de révision](L3/Calcul%20Diff%C3%A9rentiel/revision/cd-plan-de-revision.md) · [exercices corrigés](L3/Calcul%20Diff%C3%A9rentiel/revision/cd-exercices-types-corriges.md) · 📅 Écrit 2 : date à compléter
 - [Analyse Numérique 1](L3/Analyse%20Num%C3%A9rique%201/)
 
 ### Projets
