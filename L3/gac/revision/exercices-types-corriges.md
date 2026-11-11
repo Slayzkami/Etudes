@@ -399,4 +399,4 @@ Méthodes : [[endomorphismes-de-z]], [[morphisme-sur-quotient]].
 
 - Vrai/Faux rédigés : [[vrai-faux-classiques]]
 - Encore plus d'exercices : [correction du TD1](../fichiers/gac-td1-correction.pdf), [sujet 2025](../fichiers/gac-sujet-2025-seconde-session.pdf)
-- [[reconnaitre-exercice]] · [[mes-erreurs]] · [[fiche-definitions]] · [[fiche-theoremes]]
+- [[corrige-sujet-2025]] · [[reconnaitre-exercice]] · [[mes-erreurs]] · [[fiche-definitions]] · [[fiche-theoremes]]
