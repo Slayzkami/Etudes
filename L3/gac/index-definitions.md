@@ -16,6 +16,7 @@ Point d'entrée pour retrouver n'importe quelle notion. Dans Obsidian : `Ctrl/Cm
 - 📘 [[fiche-definitions|Toutes les définitions sur une page]] · ⭐ [[fiche-theoremes|Tous les énoncés sur une page]]
 - 🧭 [[reconnaitre-exercice|Reconnaître le type d'exercice]] : énoncé → méthode → première phrase
 - ✍️ [[exercices-types-corriges|Exercices types corrigés]] (19 rédactions modèles)
+- 📝 [[corrige-sujet-2025|Corrigé du sujet 2025 (seconde session)]]
 - ✅ [[vrai-faux-classiques|Vrai/Faux classiques]] · 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]]
 
 ## 📘 Définitions par chapitre

@@ -22,6 +22,7 @@ tags:
 2. 📘 [[fiche-definitions|Toutes les définitions sur une page]], puis ⭐ [[fiche-theoremes|tous les énoncés]].
 3. 🛠️ La base du calcul : [[calculer-dans-znz|calculer dans Z/nZ]].
 4. 🧭 [[reconnaitre-exercice|Reconnaître le type d'exercice]] : quelle méthode sortir face à quel énoncé.
+5. 📝 [[corrige-sujet-2025|Corrigé du sujet 2025]] : à faire chronométré avant de lire.
 5. ✍️ [[exercices-types-corriges|Exercices types corrigés]] (19) : énoncé visible, correction repliée.
 6. 🚨 [[mes-erreurs|Mes erreurs à ne plus faire]] : à relire juste avant l'épreuve.
 
