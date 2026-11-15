@@ -37,7 +37,7 @@ tags:
 - [x] Organisation du dossier (fait). Dormir.
 
 ## Samedi 14 – les bases qui rapportent le plus
-- [ ] Définitions avec quantificateurs : ouvert, fermé, voisinage, intérieur, adhérence, frontière ([[topo-fiche-definitions]], chapitre 2) — lire, fermer, réécrire
+- [x] Définitions avec quantificateurs : ouvert, fermé, voisinage, intérieur, adhérence, frontière ([[topo-fiche-definitions]], chapitre 2) — lire, fermer, réécrire
 - [ ] Les 2 tableaux « pas ouvert / pas fermé » et « adhérence = deux inclusions » → [[topo-montrer-pas-ouvert-pas-ferme]], [[topo-calculer-interieur-adherence-frontiere]]
 - [ ] Refaire seul : [[topo-exercices-types-corriges#5. Une partie de R – ouvert, fermé, adhérence, intérieur|ex. 5]] puis ses variantes ($[1,2[\cup\{5\}$, $\mathbb Z$, $\{\frac1n\}$)
 - [ ] Refaire seul : [[topo-exercices-types-corriges#6. Une suite qui tend vers 0 (écrit 2025-26)|ex. 6]] et [[topo-exercices-types-corriges#7. La parabole (interro 2025-26)|ex. 7]]
