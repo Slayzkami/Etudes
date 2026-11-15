@@ -77,6 +77,16 @@ Les erreurs que j'ai **réellement** faites (bilan du 5 novembre, séances du 6 
 > ❌ « ∅ » (bilan, interro 2025-26 ex. 2.2 et 4).
 > ✅ Écrire au moins la définition et la première phrase de la méthode : ça rapporte des points partiels.
 
+> [!WARNING] 15. Confondre un disque et un carré (diagnostic du 15 novembre)
+> ❌ « $D=\{x^2+y^2<1\}$ est équivalent à $]-1,1[\times]-1,1[$, donc $\bar D=[-1,1]\times[-1,1]$. »
+> ✅ Le disque est **strictement contenu** dans le carré : $(0{,}9;\,0{,}9)$ est dans le carré mais $0{,}81+0{,}81>1$. L'adhérence est le disque **fermé** $\{x^2+y^2\le1\}$.
+> **Contrôle** : tester un point « dans le coin » avant d'écrire une égalité d'ensembles.
+
+> [!WARNING] 16. « Fermé par définition » et « inclus dans $[-1,1]$ » pour une partie de $\mathbb R^2$ (diagnostic du 15 novembre)
+> ❌ « $K=\{x^2+y^2\le1\}$ est inclus dans $[-1,1]$ donc borné et est fermé par définition, donc compact. »
+> ✅ « $K\subset[-1,1]^2$ (car $|x|,|y|\le1$), donc borné. $K=\varphi^{-1}([0,1])$ avec $\varphi(x,y)=x^2+y^2$ continue : fermé. Fermé et borné **dans $\mathbb R^2$** : compact. »
+> **Contrôle** : « fermé » se **justifie** toujours (image réciproque ou suites) ; une partie de $\mathbb R^2$ est dans un **carré** $[-1,1]^2$, pas dans un intervalle.
+
 ## Distances, continuité
 
 > [!WARNING] 13. Affirmer l'étape clé sans la prouver
