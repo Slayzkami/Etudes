@@ -89,6 +89,9 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 | 15/11 (TD6 ex. 2) | $\varphi'(x)=-1-e^x/(1+e^{\varphi(x)})$ (parenthèses manquantes) | $\varphi'(x)=-\dfrac{1+e^x}{1+e^{\varphi(x)}}$ | Relire la formule « comme une machine » : que calcule-t-on en premier ? |
 | 15/11 (TD6 ex. 2) | $\varphi'''(0)=-\frac25$, puis $-\frac23$ (termes oubliés, puis fraction inversée) | Dériver chaque produit en 2 termes : 6 termes au total ; $3+2\varphi'''(0)=0\Rightarrow\varphi'''(0)=-\frac32$ | Compter les termes avant d'évaluer ; le coefficient de $\varphi'''$ en $0$ est $e^0+1=2$, donc le dénominateur doit être $2$ |
 | 15/11 (TD6 ex. 2) | Coefficient de $x^3$ : $\frac{-3/2}{6}=-\frac12$ | $\frac{\varphi'''(0)}{6}=-\frac{3}{2}\times\frac16=-\frac14$ | Écrire la division comme un produit par $\frac16$ |
+| 15/11 (TD6 ex. 3) | $e^x-y$ au lieu de $e^{x-y}$ ; « somme » au lieu de « composée » ; conclusion du TFI sans $I$, sans l'équivalence, sans $\varphi(0)=0$ | Écrire $e^{x-y}$ ; $e^{x-y}$ est l'exponentielle d'un polynôme ; conclusion complète (intervalle, voisinage, équivalence, classe, $\varphi(0)$) | Relire la conclusion modèle de [[fonction-implicite]] et cocher chaque élément |
+| 15/11 (TD6 ex. 3) | Parenthèses oubliées pour la 2e fois : $e^{x-\varphi}-1/(1+e^{x-\varphi})$ | $\dfrac{e^{x-\varphi}-1}{1+e^{x-\varphi}}$ ; mieux : évaluer directement la relation dérivée en $0$ | Dès qu'on tape « / », mettre le numérateur et le dénominateur entre parenthèses |
+| 15/11 (TD6 ex. 2-3) | Donner seulement le résultat ($\varphi''(0)=-1$, $\frac12$, « $\frac14$ ») sans le calcul | Écrire la relation dérivée, puis la valeur en $0$, puis conclure | Si le résultat est dans l'énoncé (« montrer que »), seule la justification rapporte des points |
 
 ## 🔗 Liens
 
