@@ -92,6 +92,10 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 | 15/11 (TD6 ex. 3) | $e^x-y$ au lieu de $e^{x-y}$ ; « somme » au lieu de « composée » ; conclusion du TFI sans $I$, sans l'équivalence, sans $\varphi(0)=0$ | Écrire $e^{x-y}$ ; $e^{x-y}$ est l'exponentielle d'un polynôme ; conclusion complète (intervalle, voisinage, équivalence, classe, $\varphi(0)$) | Relire la conclusion modèle de [[fonction-implicite]] et cocher chaque élément |
 | 15/11 (TD6 ex. 3) | Parenthèses oubliées pour la 2e fois : $e^{x-\varphi}-1/(1+e^{x-\varphi})$ | $\dfrac{e^{x-\varphi}-1}{1+e^{x-\varphi}}$ ; mieux : évaluer directement la relation dérivée en $0$ | Dès qu'on tape « / », mettre le numérateur et le dénominateur entre parenthèses |
 | 15/11 (TD6 ex. 2-3) | Donner seulement le résultat ($\varphi''(0)=-1$, $\frac12$, « $\frac14$ ») sans le calcul | Écrire la relation dérivée, puis la valeur en $0$, puis conclure | Si le résultat est dans l'énoncé (« montrer que »), seule la justification rapporte des points |
+| 15/11 (TD6 ex. 4) | Évaluer $F$ en $(0,0,0)$ au lieu du point de l'énoncé $(0,1,1)$ | Toujours évaluer au point donné | Recopier le point en haut du brouillon avant de calculer |
+| 15/11 (TD6 ex. 4) | « $F$ est $\mathcal C^\infty$ par composition d'exponentielle » alors que $F$ contient $\sin$ et $\cos$ | « composées de $\sin$, $\cos$ et de polynômes » | Nommer les fonctions réellement présentes |
+| 15/11 (TD6 ex. 4) | $\cos0=0$ (même famille que $e^0=0$) ; terme $y\cos(xy)$ oublié dans la valeur | $\cos0=1$ ; évaluer **chaque** terme | Écrire la valeur de chaque terme séparément avant de sommer |
+| 15/11 (TD6 ex. 4) | Dérivée de $\cos(xz)$ en $x$ : $-z\sin(xy)$ | $-z\sin(xz)$ : on garde l'argument de départ | Le sinus obtenu doit avoir le même argument que le cosinus dérivé |
 
 ## 🔗 Liens
 
