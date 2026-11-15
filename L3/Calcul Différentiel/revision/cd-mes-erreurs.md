@@ -77,7 +77,15 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 
 | Date | Erreur (version fausse) | Version juste | Comment la contrôler |
 |---|---|---|---|
-|  |  |  |  |
+| 14/11 (TD6 ex. 1.1) | Domaine de $f(x,y)=e^x\ln(1+y)$ : « $]-1,+\infty[$ », puis « $\mathbb R_+\times]-1,+\infty[$ » | $U=\mathbb R\times\,]-1,+\infty[$ : une fonction de 2 variables est définie sur une partie de $\mathbb R^2$, et $e^x$ est défini pour tout $x$ | Tester un point précis : $(5,0)$, $(-3,0)$ sont-ils dans mon $U$ ? $f$ y est-elle définie ? |
+| 14/11 (TD6 ex. 1.1) | « $e^x\ln(1+y)$ est $\mathcal C^2$ par composition » | C'est un **produit** de deux fonctions $\mathcal C^\infty$ | Regarder l'opération entre les morceaux : $\times$ (produit) ou $g(u(x))$ (composition) |
+| 14/11 (TD6 ex. 1.1) | $\partial_yf(0,0)=\dfrac{e^0}{1}=e$ (récidive de l'erreur n° 3) | $e^0=1$, donc $\partial_yf(0,0)=1$ | Relire chaque valeur remplacée une par une |
+| 14/11 (TD6 ex. 1.1) | Ne pas connaître la formule de Taylor-Young à l'ordre 2 | $f(a+h)=f(a)+\partial_xf\,h_1+\partial_yf\,h_2+\frac12(rh_1^2+2sh_1h_2+th_2^2)+\lVert h\rVert^2\varepsilon(h)$ | La réécrire de mémoire chaque jour jusqu'à l'épreuve → [[taylor-young-ordre-2]] |
+| 14/11 (TD6 ex. 1.1) | Factoriser le DL : $h_2+h_1h_2-\frac12h_2^2=h_2(1+h_1-h_2)$ (faux) | Ne pas factoriser une formule de Taylor ; garder $h_2+h_1h_2-\frac12h_2^2$ | Redévelopper toute factorisation ; comparer avec les DL usuels ($e^x\approx1+x$, $\ln(1+y)\approx y-\frac{y^2}2$) |
+| 15/11 (TD6 ex. 1.2) | Dériver $\cos u$ et garder $\cos u$ (toutes les dérivées secondes fausses) | $\partial(\cos u)=-\sin u\cdot\partial u$ | Après chaque dérivation, la fonction doit avoir changé : $\sin\to\cos\to-\sin\to-\cos$ |
+| 15/11 (TD6 ex. 1.2) | $\partial_z(\cos u)=-2z\sin u$ avec $u=2x+y-z^2$ | $-\sin u\cdot(-2z)=+2z\sin u$ | Compter les « moins » : deux « moins » qui se multiplient donnent « plus » |
+| 15/11 (TD6 ex. 1.2) | $\partial_z(-2z\cos u)$ : premier terme écrit avec $\sin u$ | $(vw)'=v'w+vw'$ : $v'w=-2\cos u$ ($w$ **non dérivé**) | Écrire $v$, $w$, $v'$, $w'$ séparément avant d'assembler |
+| 15/11 (TD6 ex. 1.2) | $\frac12\times(-2)\,h_3^2=+2h_3^2$ | $\frac12\times(-2)=-1$, donc $-h_3^2$ | Vérifier avec un DL en une variable : $\sin(2\pi+t)\approx t$, avec $t=2h_1+h_2-h_3^2$ |
 
 ## 🔗 Liens
 
