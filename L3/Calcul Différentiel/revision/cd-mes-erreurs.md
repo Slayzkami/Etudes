@@ -101,6 +101,9 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 | 16/11 (contrôle blanc 1) | Système des points critiques non résolu : « par la résolution du système, on obtient… » | $y=\frac2x$, puis $x^4-5x^2+4=(x^2-1)(x^2-4)=0$ | Un résultat sans calcul = 0 point ; écrire la résolution |
 | 16/11 (contrôle blanc 1) | Critère $rt-s^2$ inversé : « $r>0$ : maximum », « $r<0$ : minimum » | $rt-s^2>0$ et $r>0$ : **minimum** ; $r<0$ : **maximum** | $r>0$ comme $x\mapsto x^2$ (dérivée seconde $>0$, cuvette) : minimum |
 | 16/11 (contrôle blanc 1) | « $\mathcal C^\infty$ sur l'ouvert $\mathbb R$ » pour une fonction de 2 variables ; question 5 laissée vide | « l'ouvert $\mathbb R^2$ » ; pas de minimum global car $f(x,0)=x^3-15x\to-\infty$ | Tester $f$ sur un axe quand $x\to\pm\infty$ |
+| 16/11 (contrôle blanc 2) | Définition de « minimum local » remplacée par le critère $rt-s^2>0$, $r>0$ | $\exists V$ ouvert, $a\in V\subset U$, $\forall x\in V,\ f(x)\ge f(a)$ | Une définition ne contient ni dérivée ni hessienne ; un critère est un théorème |
+| 16/11 (contrôle blanc 2) | $(A+H)^2+A+H=A^2+AH+HA+A+H$ : terme $H^2$ oublié, puis $Df_A(H)=AH+HA$ (terme $H$ perdu) | $(A+H)^2=A^2+AH+HA+H^2$ ; $Df_A(H)=AH+HA+H$ | Compter : $(A+H)(A+H)$ donne $2\times2=4$ termes ; recopier $L(H)$ sans rien perdre |
+| 16/11 (contrôle blanc 2) | $\lVert AH-BH\rVert\le\lVert AH\rVert-\lVert BH\rVert$ | Regrouper **avant** la norme : $AH-BH=(A-B)H$, donc $\le\lVert A-B\rVert\lVert H\rVert$ | L'inégalité triangulaire n'autorise jamais à soustraire des normes |
 
 ## 🔗 Liens
 
