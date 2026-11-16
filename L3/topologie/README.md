@@ -50,7 +50,7 @@ L3/topologie/
 ```
 
 ## 🛠️ Projet
-- [Projet de topologie](../../projets/projet-topologie/README.md) : rapport en LaTeX, seul
+- [Projet de topologie : la fonction Gamma d'après Emil Artin](../../projets/projet-topologie/README.md) : rapport en LaTeX, seul
 
 ## 📖 Chapitres
 - [ ] [[01-espaces-metriques|01 – Espaces métriques, espaces vectoriels normés]]
