@@ -87,6 +87,11 @@ Les erreurs que j'ai **réellement** faites (bilan du 5 novembre, séances du 6 
 > ✅ « $K\subset[-1,1]^2$ (car $|x|,|y|\le1$), donc borné. $K=\varphi^{-1}([0,1])$ avec $\varphi(x,y)=x^2+y^2$ continue : fermé. Fermé et borné **dans $\mathbb R^2$** : compact. »
 > **Contrôle** : « fermé » se **justifie** toujours (image réciproque ou suites) ; une partie de $\mathbb R^2$ est dans un **carré** $[-1,1]^2$, pas dans un intervalle.
 
+> [!WARNING] 17. Appliquer la recette « pas ouvert » à un ensemble ouvert (séance du 16 novembre)
+> ❌ $A=]0,1[\cup]1,2[$ : « $y_n=\frac32+\frac1n\notin A$ car $\frac32<y_n<\frac52$ ». Or $y_4=\frac74\in A$.
+> ✅ $A$ est une réunion d'intervalles ouverts, donc **ouvert** ; et alors $\operatorname{Int}A=A$.
+> **Contrôle** : avant de chercher une suite, **regarder la forme** de l'ensemble (crochets ouverts partout ? inégalités strictes ?) et **tester un terme** de la suite (ex. $n=4$).
+
 ## Distances, continuité
 
 > [!WARNING] 13. Affirmer l'étape clé sans la prouver
