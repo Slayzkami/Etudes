@@ -86,6 +86,16 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 | 15/11 (TD6 ex. 1.2) | $\partial_z(\cos u)=-2z\sin u$ avec $u=2x+y-z^2$ | $-\sin u\cdot(-2z)=+2z\sin u$ | Compter les « moins » : deux « moins » qui se multiplient donnent « plus » |
 | 15/11 (TD6 ex. 1.2) | $\partial_z(-2z\cos u)$ : premier terme écrit avec $\sin u$ | $(vw)'=v'w+vw'$ : $v'w=-2\cos u$ ($w$ **non dérivé**) | Écrire $v$, $w$, $v'$, $w'$ séparément avant d'assembler |
 | 15/11 (TD6 ex. 1.2) | $\frac12\times(-2)\,h_3^2=+2h_3^2$ | $\frac12\times(-2)=-1$, donc $-h_3^2$ | Vérifier avec un DL en une variable : $\sin(2\pi+t)\approx t$, avec $t=2h_1+h_2-h_3^2$ |
+| 15/11 (TD6 ex. 2) | $\varphi'(x)=-1-e^x/(1+e^{\varphi(x)})$ (parenthèses manquantes) | $\varphi'(x)=-\dfrac{1+e^x}{1+e^{\varphi(x)}}$ | Relire la formule « comme une machine » : que calcule-t-on en premier ? |
+| 15/11 (TD6 ex. 2) | $\varphi'''(0)=-\frac25$, puis $-\frac23$ (termes oubliés, puis fraction inversée) | Dériver chaque produit en 2 termes : 6 termes au total ; $3+2\varphi'''(0)=0\Rightarrow\varphi'''(0)=-\frac32$ | Compter les termes avant d'évaluer ; le coefficient de $\varphi'''$ en $0$ est $e^0+1=2$, donc le dénominateur doit être $2$ |
+| 15/11 (TD6 ex. 2) | Coefficient de $x^3$ : $\frac{-3/2}{6}=-\frac12$ | $\frac{\varphi'''(0)}{6}=-\frac{3}{2}\times\frac16=-\frac14$ | Écrire la division comme un produit par $\frac16$ |
+| 15/11 (TD6 ex. 3) | $e^x-y$ au lieu de $e^{x-y}$ ; « somme » au lieu de « composée » ; conclusion du TFI sans $I$, sans l'équivalence, sans $\varphi(0)=0$ | Écrire $e^{x-y}$ ; $e^{x-y}$ est l'exponentielle d'un polynôme ; conclusion complète (intervalle, voisinage, équivalence, classe, $\varphi(0)$) | Relire la conclusion modèle de [[fonction-implicite]] et cocher chaque élément |
+| 15/11 (TD6 ex. 3) | Parenthèses oubliées pour la 2e fois : $e^{x-\varphi}-1/(1+e^{x-\varphi})$ | $\dfrac{e^{x-\varphi}-1}{1+e^{x-\varphi}}$ ; mieux : évaluer directement la relation dérivée en $0$ | Dès qu'on tape « / », mettre le numérateur et le dénominateur entre parenthèses |
+| 15/11 (TD6 ex. 2-3) | Donner seulement le résultat ($\varphi''(0)=-1$, $\frac12$, « $\frac14$ ») sans le calcul | Écrire la relation dérivée, puis la valeur en $0$, puis conclure | Si le résultat est dans l'énoncé (« montrer que »), seule la justification rapporte des points |
+| 15/11 (TD6 ex. 4) | Évaluer $F$ en $(0,0,0)$ au lieu du point de l'énoncé $(0,1,1)$ | Toujours évaluer au point donné | Recopier le point en haut du brouillon avant de calculer |
+| 15/11 (TD6 ex. 4) | « $F$ est $\mathcal C^\infty$ par composition d'exponentielle » alors que $F$ contient $\sin$ et $\cos$ | « composées de $\sin$, $\cos$ et de polynômes » | Nommer les fonctions réellement présentes |
+| 15/11 (TD6 ex. 4) | $\cos0=0$ (même famille que $e^0=0$) ; terme $y\cos(xy)$ oublié dans la valeur | $\cos0=1$ ; évaluer **chaque** terme | Écrire la valeur de chaque terme séparément avant de sommer |
+| 15/11 (TD6 ex. 4) | Dérivée de $\cos(xz)$ en $x$ : $-z\sin(xy)$ | $-z\sin(xz)$ : on garde l'argument de départ | Le sinus obtenu doit avoir le même argument que le cosinus dérivé |
 
 ## 🔗 Liens
 

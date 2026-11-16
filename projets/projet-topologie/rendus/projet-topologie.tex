@@ -1,0 +1,107 @@
+% Projet de topologie — L3 mathématiques, FST Limoges (2026–2027)
+% Mise en page dans le style d'un article de recherche (classe amsart).
+% Compilation : pdflatex projet-topologie.tex (deux fois pour les références)
+\documentclass[11pt,a4paper]{amsart}
+
+% --- Langue et police -------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[french]{babel}
+\usepackage{lmodern}
+
+% --- Mathématiques ------------------------------------------------------
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+
+% --- Mise en page et liens ---------------------------------------------
+\usepackage[margin=3cm]{geometry}
+\usepackage{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue,citecolor=blue,urlcolor=blue]{hyperref}
+
+% --- Environnements (numérotés par section) -----------------------------
+\theoremstyle{plain}
+\newtheorem{theoreme}{Théorème}[section]
+\newtheorem{proposition}[theoreme]{Proposition}
+\newtheorem{lemme}[theoreme]{Lemme}
+\newtheorem{corollaire}[theoreme]{Corollaire}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theoreme]{Définition}
+\newtheorem{exemple}[theoreme]{Exemple}
+
+\theoremstyle{remark}
+\newtheorem{remarque}[theoreme]{Remarque}
+
+\numberwithin{equation}{section}
+
+% --- Raccourcis ---------------------------------------------------------
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\Q}{\mathbb{Q}}
+\DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
+\DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
+\newcommand{\adh}[1]{\overline{#1}}
+\newcommand{\interieur}[1]{\mathring{#1}}
+
+% ======================================================================
+\begin{document}
+
+\title{Titre du projet}
+
+\author{Slayzkami}
+\address{Faculté des Sciences et Techniques, Université de Limoges}
+\date{\today}
+
+\begin{abstract}
+Résumé en quelques lignes : la question étudiée, les outils utilisés
+(espaces métriques, compacité\dots) et les principaux résultats obtenus.
+\end{abstract}
+
+\maketitle
+
+% ----------------------------------------------------------------------
+\section{Introduction}
+
+Présentation du problème et du plan du rapport. Une formule numérotée :
+\begin{equation}\label{eq:exemple}
+  d(x,y) = \norm{x-y}, \qquad x,y \in \R^n .
+\end{equation}
+
+% ----------------------------------------------------------------------
+\section{Rappels}
+
+\begin{definition}
+Un espace métrique $(E,d)$ est \emph{compact} si toute suite de $E$
+admet une sous-suite convergente dans $E$.
+\end{definition}
+
+\begin{theoreme}[Borel--Lebesgue]\label{thm:bl}
+Un espace métrique est compact si et seulement si de tout recouvrement
+ouvert on peut extraire un sous-recouvrement fini.
+\end{theoreme}
+
+% ----------------------------------------------------------------------
+\section{Résultats}
+
+\begin{proposition}\label{prop:principale}
+Énoncé.
+\end{proposition}
+
+\begin{proof}
+Démonstration, en citant le théorème~\ref{thm:bl} et la
+formule~\eqref{eq:exemple}.
+\end{proof}
+
+% ----------------------------------------------------------------------
+\section{Conclusion}
+
+Bilan et prolongements possibles.
+
+% ----------------------------------------------------------------------
+\begin{thebibliography}{9}
+\bibitem{igbida}
+N.~Igbida, \emph{Topologie des espaces métriques}, cours de L3,
+Université de Limoges, 2026--2027.
+\end{thebibliography}
+
+\end{document}
