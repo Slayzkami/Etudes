@@ -96,6 +96,11 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 | 15/11 (TD6 ex. 4) | « $F$ est $\mathcal C^\infty$ par composition d'exponentielle » alors que $F$ contient $\sin$ et $\cos$ | « composées de $\sin$, $\cos$ et de polynômes » | Nommer les fonctions réellement présentes |
 | 15/11 (TD6 ex. 4) | $\cos0=0$ (même famille que $e^0=0$) ; terme $y\cos(xy)$ oublié dans la valeur | $\cos0=1$ ; évaluer **chaque** terme | Écrire la valeur de chaque terme séparément avant de sommer |
 | 15/11 (TD6 ex. 4) | Dérivée de $\cos(xz)$ en $x$ : $-z\sin(xy)$ | $-z\sin(xz)$ : on garde l'argument de départ | Le sinus obtenu doit avoir le même argument que le cosinus dérivé |
+| 16/11 (contrôle blanc 1) | IAF énoncée sans l'hypothèse « $[a,b]\subset U$ », et avec « dérivée bornée en valeur absolue » | $f$ différentiable sur l'ouvert $U$, $[a,b]\subset U$, $\tnorm{Df_x}\le M$ sur $[a,b]$ $\Rightarrow$ $\lVert f(b)-f(a)\rVert\le M\lVert b-a\rVert$ | Les 3 hypothèses de [[iaf]] : différentiable sur un ouvert, segment inclus, $\tnorm{Df}$ majorée |
+| 16/11 (contrôle blanc 1) | « $\Omega$ convexe » écrit mais jamais utilisé | « Soient $a,b\in\Omega$ ; $\Omega$ est convexe donc $[a,b]\subset\Omega$ » | Chaque hypothèse de l'énoncé doit servir quelque part dans la preuve |
+| 16/11 (contrôle blanc 1) | Système des points critiques non résolu : « par la résolution du système, on obtient… » | $y=\frac2x$, puis $x^4-5x^2+4=(x^2-1)(x^2-4)=0$ | Un résultat sans calcul = 0 point ; écrire la résolution |
+| 16/11 (contrôle blanc 1) | Critère $rt-s^2$ inversé : « $r>0$ : maximum », « $r<0$ : minimum » | $rt-s^2>0$ et $r>0$ : **minimum** ; $r<0$ : **maximum** | $r>0$ comme $x\mapsto x^2$ (dérivée seconde $>0$, cuvette) : minimum |
+| 16/11 (contrôle blanc 1) | « $\mathcal C^\infty$ sur l'ouvert $\mathbb R$ » pour une fonction de 2 variables ; question 5 laissée vide | « l'ouvert $\mathbb R^2$ » ; pas de minimum global car $f(x,0)=x^3-15x\to-\infty$ | Tester $f$ sur un axe quand $x\to\pm\infty$ |
 
 ## 🔗 Liens
 
