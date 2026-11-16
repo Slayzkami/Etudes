@@ -71,12 +71,105 @@
 
 % ----------------------------------------------------------------------
 \section{Fonctions convexes et log-convexes}
-% Définitions, inégalité des pentes ; convexe sur un ouvert => continue ;
-% limite simple de convexes convexe (passage à la limite, fermés) ;
-% somme de log-convexes log-convexe.
+
+Dans toute cette partie, $I$ désigne un intervalle ouvert non vide de $\R$.
+On suit le premier chapitre d'Artin~\cite[ch.~1]{artin}, en reprenant les
+notations du cours~\cite{igbida}.
+
+\begin{definition}[Fonction convexe]\label{def:convexe}
+Une fonction $f\colon I\to\R$ est \emph{convexe} sur $I$ si, pour tous
+$x,y\in I$ et tout $\lambda\in[0,1]$,
+\begin{equation}\label{eq:convexe}
+  f\bigl(\lambda x+(1-\lambda)y\bigr)\le \lambda f(x)+(1-\lambda)f(y).
+\end{equation}
+\end{definition}
+
+\begin{remarque}[Lien avec les parties convexes]\label{rem:epigraphe}
+Géométriquement, \eqref{eq:convexe} signifie que sur $[x,y]$, le graphe de
+$f$ est situé sous la corde qui joint $(x,f(x))$ à $(y,f(y))$. De façon
+équivalente, $f$ est convexe si et seulement si son \emph{épigraphe}
+\[
+  \operatorname{epi} f=\{(x,t)\in I\times\R \;:\; t\ge f(x)\}
+\]
+est une partie convexe de $\R^2$, au sens du cours : pour tous
+$u,v\in\operatorname{epi} f$ et tout $\lambda\in[0,1]$, on a
+$\lambda u+(1-\lambda)v\in\operatorname{epi} f$
+\cite[exercice~2.11]{igbida}.
+\end{remarque}
+
+\begin{remarque}[La définition d'Artin]\label{rem:def-artin}
+Artin~\cite[p.~1]{artin} ne part pas de~\eqref{eq:convexe} mais des
+\emph{pentes} : $f$ est convexe si, pour tout $a\in I$, la fonction
+\[
+  x\longmapsto \frac{f(x)-f(a)}{x-a}
+\]
+est croissante sur $I\setminus\{a\}$. Les deux définitions sont équivalentes
+(c'est l'inégalité des pentes, démontrée plus loin). Artin appelle
+aussi \emph{faiblement convexe} une fonction qui vérifie seulement
+\eqref{eq:convexe} pour $\lambda=\frac12$, et il montre qu'une fonction est
+convexe si et seulement si elle est continue et faiblement
+convexe~\cite[th.~1.5]{artin}. C'est un argument topologique : on obtient
+d'abord \eqref{eq:convexe} pour les $\lambda$ d'une partie dense de
+$[0,1]$, puis on passe à la limite grâce à la continuité.
+\end{remarque}
+
+\begin{definition}[Fonction log-convexe]\label{def:log-convexe}
+Une fonction $f\colon I\to\R$ est \emph{log-convexe} sur $I$ si $f(x)>0$
+pour tout $x\in I$ et si la fonction $\ln f$ est convexe sur $I$.
+\end{definition}
+
+La condition $f>0$ est indispensable pour que $\ln f$ ait un sens. Comme la
+fonction exponentielle est strictement croissante, appliquer $\exp$ à
+l'inégalité~\eqref{eq:convexe} écrite pour $\ln f$ donne une forme
+équivalente, sans logarithme : $f>0$ est log-convexe sur $I$ si et seulement
+si, pour tous $x,y\in I$ et tout $\lambda\in[0,1]$,
+\begin{equation}\label{eq:log-convexe}
+  f\bigl(\lambda x+(1-\lambda)y\bigr)\le f(x)^{\lambda}\,f(y)^{1-\lambda}.
+\end{equation}
+La convexité compare $f$ à une moyenne \emph{arithmétique} pondérée, la
+log-convexité à une moyenne \emph{géométrique} pondérée.
+
+\begin{proposition}\label{prop:log-convexe-convexe}
+Toute fonction log-convexe sur $I$ est convexe sur $I$.
+\end{proposition}
+
+\begin{proof}
+Soient $x,y\in I$ et $\lambda\in[0,1]$. Par concavité du logarithme,
+pour tous $a,b>0$ on a
+$\ln\bigl(\lambda a+(1-\lambda)b\bigr)\ge\lambda\ln a+(1-\lambda)\ln b$,
+c'est-à-dire $a^\lambda b^{1-\lambda}\le\lambda a+(1-\lambda)b$
+(inégalité arithmético-géométrique). Avec $a=f(x)$ et $b=f(y)$,
+\eqref{eq:log-convexe} donne
+\[
+  f\bigl(\lambda x+(1-\lambda)y\bigr)\le f(x)^{\lambda}f(y)^{1-\lambda}
+  \le\lambda f(x)+(1-\lambda)f(y).
+  \qedhere
+\]
+\end{proof}
+
+\begin{exemple}\label{ex:log-convexe}
+\begin{enumerate}[label=(\arabic*)]
+  \item $x\mapsto e^{x}$ est log-convexe sur $\R$, car $\ln(e^x)=x$ est
+  affine.
+  \item $x\mapsto 1/x$ est log-convexe sur $]0,+\infty[$, car
+  $\ln(1/x)=-\ln x$ est convexe.
+  \item $x\mapsto x^2$ est convexe sur $]0,+\infty[$ mais \emph{pas}
+  log-convexe : $\ln(x^2)=2\ln x$ est strictement concave. La réciproque de
+  la proposition~\ref{prop:log-convexe-convexe} est donc fausse : la
+  log-convexité est une condition plus forte.
+\end{enumerate}
+On verra dans la partie~\ref{sec:gamma} que $\Gamma$ est log-convexe sur
+$]0,+\infty[$. C'est cette propriété qui la caractérise.
+\end{exemple}
+
+% À rédiger ensuite (voir notes/plan.md) :
+% - Proposition \label{prop:pentes} : inégalité des pentes ;
+% - convexe sur un ouvert => continue ;
+% - limite simple de convexes convexe (passage à la limite, fermés) ;
+% - somme de log-convexes log-convexe.
 
 % ----------------------------------------------------------------------
-\section{La fonction \texorpdfstring{$\Gamma$}{Gamma}}
+\section{La fonction \texorpdfstring{$\Gamma$}{Gamma}}\label{sec:gamma}
 % Convergence de l'intégrale d'Euler ; Gamma(x+1)=xGamma(x) ; continuité
 % (domination sur les segments [a,b], compacité) ; log-convexité.
 
