@@ -104,6 +104,7 @@ Les erreurs que j'ai réellement faites en m'entraînant (test diagnostique, suj
 | 16/11 (contrôle blanc 2) | Définition de « minimum local » remplacée par le critère $rt-s^2>0$, $r>0$ | $\exists V$ ouvert, $a\in V\subset U$, $\forall x\in V,\ f(x)\ge f(a)$ | Une définition ne contient ni dérivée ni hessienne ; un critère est un théorème |
 | 16/11 (contrôle blanc 2) | $(A+H)^2+A+H=A^2+AH+HA+A+H$ : terme $H^2$ oublié, puis $Df_A(H)=AH+HA$ (terme $H$ perdu) | $(A+H)^2=A^2+AH+HA+H^2$ ; $Df_A(H)=AH+HA+H$ | Compter : $(A+H)(A+H)$ donne $2\times2=4$ termes ; recopier $L(H)$ sans rien perdre |
 | 16/11 (contrôle blanc 2) | $\lVert AH-BH\rVert\le\lVert AH\rVert-\lVert BH\rVert$ | Regrouper **avant** la norme : $AH-BH=(A-B)H$, donc $\le\lVert A-B\rVert\lVert H\rVert$ | L'inégalité triangulaire n'autorise jamais à soustraire des normes |
+| 16/11 (**vrai contrôle**) | Après $\tnorm{Df_x}\le5$, conclure « $f$ est 5-lipschitzienne » sans citer l'IAF ni « $\mathbb R^2$ ouvert convexe » (récidive du contrôle blanc 1) | « $\mathbb R^2$ est un ouvert convexe, $f$ y est différentiable et $\tnorm{Df_x}\le5$ ; par le Cor. 3.13, $f$ est 5-lipschitzienne » | Dès que j'écris « lipschitzienne », j'écris dans la même phrase « ouvert convexe » et « IAF / Cor. 3.13 » |
 
 ## 🔗 Liens
 
