@@ -3,7 +3,8 @@
 
 ## 2. Fonctions convexes et log-convexes
 
-Définir ce qu'est une fonction convexe => convexité et découler sur ce que c'est
+Définir ce qu'est une fonction convexe => convexité et découler sur ce que c'est qu'être log-convexe
+
 
 
 
