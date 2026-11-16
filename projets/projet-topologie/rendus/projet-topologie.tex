@@ -1,4 +1,5 @@
 % Projet de topologie — L3 mathématiques, FST Limoges (2026–2027)
+% Sujet : la fonction Gamma, d'après Emil Artin (The Gamma Function, 1964)
 % Mise en page dans le style d'un article de recherche (classe amsart).
 % Compilation : pdflatex projet-topologie.tex (deux fois pour les références)
 \documentclass[11pt,a4paper]{amsart}
@@ -6,7 +7,8 @@
 % --- Langue et police -------------------------------------------------
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
-\usepackage[french]{babel}
+\usepackage{babel}
+\babelprovide[import, main]{french}
 \usepackage{lmodern}
 
 % --- Mathématiques ------------------------------------------------------
@@ -32,29 +34,41 @@
 \newtheorem{remarque}[theoreme]{Remarque}
 
 \numberwithin{equation}{section}
+\renewcommand{\proofname}{Démonstration}
+\renewcommand{\abstractname}{Résumé}
+\renewcommand{\refname}{Références}
 
 % --- Raccourcis ---------------------------------------------------------
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\N}{\mathbb{N}}
+\newcommand{\Z}{\mathbb{Z}}
 \newcommand{\C}{\mathbb{C}}
 \newcommand{\Q}{\mathbb{Q}}
+\newcommand{\dd}{\,\mathrm{d}}
 \DeclarePairedDelimiter{\norm}{\lVert}{\rVert}
 \DeclarePairedDelimiter{\abs}{\lvert}{\rvert}
 \newcommand{\adh}[1]{\overline{#1}}
 \newcommand{\interieur}[1]{\mathring{#1}}
+\newcommand{\afaire}[1]{\textit{[À rédiger : #1]}}
 
 % ======================================================================
 \begin{document}
 
-\title{Titre du projet}
+\title{La fonction Gamma d'après Emil Artin}
 
 \author{Slayzkami}
 \address{Faculté des Sciences et Techniques, Université de Limoges}
 \date{\today}
 
 \begin{abstract}
-Résumé en quelques lignes : la question étudiée, les outils utilisés
-(espaces métriques, compacité\dots) et les principaux résultats obtenus.
+On étudie la fonction Gamma $\Gamma(x)=\int_0^{+\infty}t^{x-1}e^{-t}\dd t$
+en suivant la démarche d'Emil Artin~\cite{artin}. Le fil conducteur est la
+\emph{log-convexité} : d'après le théorème de Bohr--Mollerup, $\Gamma$ est
+la seule fonction log-convexe sur $]0,+\infty[$ qui vérifie
+$f(x+1)=xf(x)$ et $f(1)=1$. On en déduit la formule de Gauss, le lien avec la
+fonction Bêta, la formule de Stirling, la formule des compléments et la
+formule de multiplication, puis on montre que $\Gamma$ est caractérisée par
+ses équations fonctionnelles.
 \end{abstract}
 
 \maketitle
@@ -62,43 +76,179 @@ Résumé en quelques lignes : la question étudiée, les outils utilisés
 % ----------------------------------------------------------------------
 \section{Introduction}
 
-Présentation du problème et du plan du rapport. Une formule numérotée :
-\begin{equation}\label{eq:exemple}
-  d(x,y) = \norm{x-y}, \qquad x,y \in \R^n .
+La fonction Gamma prolonge la factorielle : on cherche une fonction $f$
+définie sur $]0,+\infty[$ telle que $f(n+1)=n!$ pour tout entier $n\ge 0$.
+L'intégrale d'Euler
+\begin{equation}\label{eq:euler}
+  \Gamma(x)=\int_0^{+\infty} t^{x-1}e^{-t}\dd t, \qquad x>0,
 \end{equation}
+convient, mais elle n'est pas la seule : on peut lui ajouter n'importe quelle
+fonction qui s'annule aux entiers. Toute la question est de savoir quelle
+condition supplémentaire rend la solution unique.
+
+\afaire{présenter le plan du rapport et le lien avec le cours de topologie
+(convergence uniforme, continuité, passage à la limite).}
 
 % ----------------------------------------------------------------------
-\section{Rappels}
+\section{Fonctions convexes et log-convexes}
 
 \begin{definition}
-Un espace métrique $(E,d)$ est \emph{compact} si toute suite de $E$
-admet une sous-suite convergente dans $E$.
+Soit $I$ un intervalle ouvert de $\R$. Une fonction $f\colon I\to\R$ est
+\emph{convexe} si pour tous $x,y\in I$ et tout $t\in[0,1]$,
+\[
+  f\bigl((1-t)x+ty\bigr)\le (1-t)f(x)+tf(y).
+\]
+Une fonction $f\colon I\to\,]0,+\infty[$ est \emph{log-convexe} si
+$\log f$ est convexe.
 \end{definition}
 
-\begin{theoreme}[Borel--Lebesgue]\label{thm:bl}
-Un espace métrique est compact si et seulement si de tout recouvrement
-ouvert on peut extraire un sous-recouvrement fini.
+\begin{theoreme}[{\cite[th.~1.8]{artin}}]\label{thm:somme-log-convexe}
+La somme de deux fonctions log-convexes sur un même intervalle est
+log-convexe.
 \end{theoreme}
 
-% ----------------------------------------------------------------------
-\section{Résultats}
+\begin{proof}
+\afaire{preuve d'Artin par les formes quadratiques.}
+\end{proof}
 
-\begin{proposition}\label{prop:principale}
-Énoncé.
+\begin{theoreme}[{\cite[th.~1.9]{artin}}]\label{thm:integrale-log-convexe}
+Soit $\varphi$ une fonction continue et strictement positive sur l'intérieur
+de l'intervalle d'intégration. Alors $x\mapsto\int_a^b\varphi(t)\,t^{x-1}\dd t$
+est log-convexe sur tout intervalle où l'intégrale (propre ou impropre)
+converge.
+\end{theoreme}
+
+\begin{proof}
+\afaire{sommes de Riemann, théorème~\ref{thm:somme-log-convexe}, puis
+passage à la limite.}
+\end{proof}
+
+% ----------------------------------------------------------------------
+\section{L'intégrale d'Euler et le théorème de Bohr--Mollerup}
+
+\begin{proposition}\label{prop:equation-fonctionnelle}
+L'intégrale~\eqref{eq:euler} converge pour tout $x>0$, et
+\begin{equation}\label{eq:fonctionnelle}
+  \Gamma(x+1)=x\,\Gamma(x), \qquad \Gamma(1)=1,
+\end{equation}
+donc $\Gamma(n+1)=n!$ pour tout $n\in\N$.
 \end{proposition}
 
 \begin{proof}
-Démonstration, en citant le théorème~\ref{thm:bl} et la
-formule~\eqref{eq:exemple}.
+\afaire{convergence en $0$ et en $+\infty$, intégration par parties.}
 \end{proof}
+
+\begin{theoreme}[Bohr--Mollerup, {\cite[th.~2.1]{artin}}]\label{thm:bohr-mollerup}
+Soit $f\colon\,]0,+\infty[\,\to\,]0,+\infty[$ telle que
+\begin{enumerate}[label=(\roman*)]
+  \item $f(x+1)=x f(x)$ pour tout $x>0$ ;
+  \item $f$ est log-convexe ;
+  \item $f(1)=1$.
+\end{enumerate}
+Alors $f=\Gamma$.
+\end{theoreme}
+
+\begin{proof}
+\afaire{encadrement de $\log f$ par la convexité, puis passage à la limite.}
+\end{proof}
+
+\begin{corollaire}[Formule de Gauss]\label{cor:gauss}
+Pour tout $x>0$,
+\[
+  \Gamma(x)=\lim_{n\to+\infty}\frac{n^x\,n!}{x(x+1)\cdots(x+n)}.
+\]
+\end{corollaire}
+
+\begin{proposition}[Fonction Bêta]\label{prop:beta}
+Pour tous $x,y>0$,
+\[
+  B(x,y)=\int_0^1 t^{x-1}(1-t)^{y-1}\dd t=\frac{\Gamma(x)\,\Gamma(y)}{\Gamma(x+y)}.
+\]
+\end{proposition}
+
+\begin{proof}
+\afaire{à $y$ fixé, appliquer le théorème~\ref{thm:bohr-mollerup} à
+$x\mapsto \Gamma(x+y)\,B(x,y)/\Gamma(y)$.}
+\end{proof}
+
+% ----------------------------------------------------------------------
+\section{Grandes valeurs de $x$ et formule de multiplication}
+
+\begin{theoreme}[Formule de Stirling]\label{thm:stirling}
+Pour tout $x>0$, il existe $\theta\in\,]0,1[$ tel que
+\[
+  \Gamma(x+1)=\sqrt{2\pi x}\;x^x e^{-x}\,e^{\theta/(12x)}.
+\]
+\end{theoreme}
+
+\begin{theoreme}[Formule de multiplication de Gauss]\label{thm:multiplication}
+Pour tout entier $p\ge 2$ et tout $x>0$,
+\[
+  \Gamma\Bigl(\frac{x}{p}\Bigr)\Gamma\Bigl(\frac{x+1}{p}\Bigr)\cdots
+  \Gamma\Bigl(\frac{x+p-1}{p}\Bigr)
+  =\frac{(2\pi)^{(p-1)/2}}{p^{\,x-1/2}}\,\Gamma(x).
+\]
+Pour $p=2$, c'est la formule de duplication de Legendre :
+$\Gamma\bigl(\tfrac x2\bigr)\Gamma\bigl(\tfrac{x+1}2\bigr)
+=2^{1-x}\sqrt\pi\,\Gamma(x)$.
+\end{theoreme}
+
+% ----------------------------------------------------------------------
+\section{Lien avec la fonction sinus}
+
+\begin{theoreme}[Formule des compléments]\label{thm:complements}
+Pour tout $x\in\R\setminus\Z$,
+\[
+  \Gamma(x)\,\Gamma(1-x)=\frac{\pi}{\sin(\pi x)}.
+\]
+En particulier $\Gamma\bigl(\tfrac12\bigr)=\sqrt\pi$.
+\end{theoreme}
+
+\begin{remarque}
+Ici $\Gamma$ est prolongée aux réels négatifs non entiers par
+$\Gamma(x)=\Gamma(x+n)/\bigl(x(x+1)\cdots(x+n-1)\bigr)$, avec $n$ assez grand
+pour que $x+n>0$.
+\end{remarque}
+
+% ----------------------------------------------------------------------
+\section{Caractériser $\Gamma$ par des équations fonctionnelles}
+
+\begin{theoreme}[{\cite[th.~6.2]{artin}}]\label{thm:caracterisation}
+$\Gamma$ est la seule fonction de classe $C^1$, strictement positive sur
+$]0,+\infty[$, qui vérifie l'équation~\eqref{eq:fonctionnelle} et la formule
+de multiplication du théorème~\ref{thm:multiplication} pour au moins un
+entier $p\ge2$.
+\end{theoreme}
+
+\begin{remarque}
+La continuité seule ne suffit pas : Artin construit un contre-exemple à
+l'aide de la série $\sum_{n\ge1}2^{-n}\sin(2^n\pi x)$, qui converge
+uniformément. \afaire{détailler ce contre-exemple : c'est le passage le plus
+« topologique » du livre.}
+\end{remarque}
 
 % ----------------------------------------------------------------------
 \section{Conclusion}
 
-Bilan et prolongements possibles.
+\afaire{bilan, et ce que la log-convexité apporte par rapport à une approche
+par les fonctions holomorphes.}
 
 % ----------------------------------------------------------------------
 \begin{thebibliography}{9}
+\bibitem{artin}
+E.~Artin, \emph{The Gamma Function}, traduit par M.~Butler, Holt, Rinehart
+and Winston, New York, 1964. Original allemand :
+\emph{Einführung in die Theorie der Gammafunktion}, Teubner, Leipzig, 1931.
+
+\bibitem{bohr-mollerup}
+H.~Bohr et J.~Mollerup, \emph{Lærebog i matematisk Analyse}, vol.~III,
+Copenhague, 1922, p.~149--164.
+
+\bibitem{johansson}
+F.~Johansson, \emph{Arbitrary-precision computation of the gamma function},
+Maple Transactions \textbf{3} (2023), no.~1.
+\href{https://arxiv.org/abs/2109.08392}{arXiv:2109.08392}.
+
 \bibitem{igbida}
 N.~Igbida, \emph{Topologie des espaces métriques}, cours de L3,
 Université de Limoges, 2026--2027.

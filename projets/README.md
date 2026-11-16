@@ -11,4 +11,4 @@ projets/
 ```
 
 ## Projets
-- [Projet de topologie](projet-topologie/README.md) · rapport LaTeX (style article `amsart`) · seul · 📅 rendu : date à compléter
+- [Projet de topologie : la fonction Gamma (Artin)](projet-topologie/README.md) · rapport LaTeX (style article `amsart`) · seul · 📅 rendu : date à compléter
