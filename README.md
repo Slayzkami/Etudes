@@ -23,7 +23,7 @@ Tout mon travail d'études au même endroit : cours, projets et recherches.
 - [Analyse Numérique 1](L3/Analyse%20Num%C3%A9rique%201/)
 
 ### Projets
-- *(aucun projet pour l'instant)*
+- [Projet de topologie](projets/projet-topologie/) · rapport en LaTeX (style article), seul · [source LaTeX](projets/projet-topologie/rendus/projet-topologie.tex) · 📅 rendu : date à compléter
 
 ### Recherches
 - *(aucun sujet pour l'instant)*

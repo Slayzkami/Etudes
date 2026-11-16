@@ -49,6 +49,9 @@ L3/topologie/
 └── fichiers/                        ← PDF (polycopiés, cours rédigé, sujets, corrigés)
 ```
 
+## 🛠️ Projet
+- [Projet de topologie](../../projets/projet-topologie/README.md) : rapport en LaTeX, seul
+
 ## 📖 Chapitres
 - [ ] [[01-espaces-metriques|01 – Espaces métriques, espaces vectoriels normés]]
 - [ ] [[02-topologie-espaces-metriques|02 – Topologie des espaces métriques]]
