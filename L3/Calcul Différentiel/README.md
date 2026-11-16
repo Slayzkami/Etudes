@@ -76,7 +76,7 @@ Pour l'Écrit 2 (chapitres 4 et 5), je n'ai pas d'annale : les exercices du poly
 Toutes dans [fichiers](fichiers/) :
 - **Cours rédigé complet, chapitres 1 à 5** (démonstrations, méthodes, pièges, exercices corrigés) : [cd-cours-redige-ch1-5.pdf](fichiers/cd-cours-redige-ch1-5.pdf) – c'est sa numérotation qui est utilisée partout ici.
 - Polycopiés du prof : [chapitre 1](fichiers/cd-chap1-polycopie.pdf), [chapitre 2](fichiers/cd-chap2-polycopie.pdf), [chapitre 5](fichiers/cd-chap5-polycopie.pdf)
-- Feuilles de TD : [TD1](fichiers/cd-td1.pdf), [TD2](fichiers/cd-td2.pdf), [TD3](fichiers/cd-td3.pdf)
+- Feuilles de TD : [TD1](fichiers/cd-td1.pdf), [TD2](fichiers/cd-td2.pdf), [TD3](fichiers/cd-td3.pdf), [TD4](fichiers/cd-td4-enonce.png) ([corrigé](fichiers/cd-td4-corrige.pdf)), [TD5](fichiers/cd-td5-enonce.png) ([corrigé](fichiers/cd-td5-corrige.pdf)), [TD6](fichiers/cd-td6.pdf)
 - Écrit 1, sujets : [2022-2023](fichiers/cd-ecrit1-2022-2023-sujet.pdf), [2024-2025](fichiers/cd-ecrit1-2024-2025-sujet.pdf), [2025-2026](fichiers/cd-ecrit1-2025-2026-sujet.pdf)
 - Écrit 1, corrigés : [2022-2023](fichiers/cd-ecrit1-2022-2023-corrige.pdf), [2024-2025](fichiers/cd-ecrit1-2024-2025-corrige.pdf), [2025-2026 (prof)](fichiers/cd-ecrit1-2025-2026-corrige.pdf), [2025-2026 (détaillé)](fichiers/cd-ecrit1-2025-2026-corrige-detaille.pdf), [2026-2027 (détaillé)](fichiers/cd-ecrit1-2026-2027-corrige-detaille.pdf)
 - Partiels blancs : [n° 5](fichiers/cd-partiel-blanc-5.pdf) ([corrigé](fichiers/cd-partiel-blanc-5-corrige.pdf)), [n° 6](fichiers/cd-partiel-blanc-6.pdf) ([corrigé](fichiers/cd-partiel-blanc-6-corrige.pdf))
