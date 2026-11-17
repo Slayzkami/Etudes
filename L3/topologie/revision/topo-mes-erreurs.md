@@ -92,6 +92,23 @@ Les erreurs que j'ai **réellement** faites (bilan du 5 novembre, séances du 6 
 > ✅ $A$ est une réunion d'intervalles ouverts, donc **ouvert** ; et alors $\operatorname{Int}A=A$.
 > **Contrôle** : avant de chercher une suite, **regarder la forme** de l'ensemble (crochets ouverts partout ? inégalités strictes ?) et **tester un terme** de la suite (ex. $n=4$).
 
+> [!WARNING] 18. Adhérence dans $\mathbb R^2$ : n'ajouter qu'un seul point (séance du 17 novembre)
+> ❌ $A=\{x\ge0,\ y>0\}$ : « $A\cup\{(0,0)\}\subset\bar A$ » alors que le candidat est $\{x\ge0,\ y\ge0\}$.
+> ✅ Les points ajoutés sont **toute la demi-droite** $(a,0)$, $a\ge0$ : $(a,\frac1n)\in A\to(a,0)$.
+> **Contrôle** : lister « candidat moins $A$ » en entier (tester un point comme $(1,0)$).
+
+> [!WARNING] 19. Intérieur : mettre l'inclusion à l'envers (séance du 17 novembre)
+> ❌ « $G=\{x>0,y>0\}$ est ouvert et **contient** $A$. »
+> ✅ $G$ est ouvert et **contenu dans** $A$. Chaîne à retenir : $\operatorname{Int}A\subset A\subset\bar A$ (adhérence : le candidat contient $A$ ; intérieur : il est contenu dans $A$).
+
+> [!WARNING] 20. Mauvaise fonction pour l'image réciproque (séance du 17 novembre)
+> ❌ $\pi_1(x,y)=x+1$ : alors $\pi_1^{-1}(]0,+\infty[)=\{x>-1\}$, pas $\{x>0\}$.
+> ✅ Garder $\pi_1(x,y)=x$, $\pi_2(x,y)=y$ ; seul l'intervalle change : $[0,+\infty[$ (fermé) pour l'adhérence, $]0,+\infty[$ (ouvert) pour l'intérieur.
+
+> [!WARNING] 21. Se tromper sur les points de $A$ hors du candidat intérieur (séance du 17 novembre)
+> ❌ « Les points de $A$ hors de $G$ sont les $(a,0)$ » — mais $(a,0)\notin A$ (il faut $y>0$).
+> ✅ Comparer les conditions : $A$ permet $x=0$, $G$ non : ce sont les $(0,a)$, $a>0$ ; suite $(-\frac1n,a)\notin A\to(0,a)$.
+
 ## Distances, continuité
 
 > [!WARNING] 13. Affirmer l'étape clé sans la prouver
