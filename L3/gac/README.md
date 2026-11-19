@@ -66,7 +66,7 @@ L3/gac/
 Toutes dans [fichiers](fichiers/) :
 - Polycopiés : [Groupes](fichiers/gac-chap1-groupes-polycopie.pdf), [Groupe symétrique](fichiers/gac-chap1-groupe-symetrique-polycopie.pdf), [Actions de groupes](fichiers/gac-chap1-actions-polycopie.pdf)
 - [Cours rédigé complet (démonstrations, méthodes, figures)](fichiers/gac-chap1-cours-redige.pdf)
-- Feuilles d'exercices : [Feuille 0 – révisions](fichiers/gac-feuille0-revisions.pdf), [TD1](fichiers/gac-td1-2025-2026.pdf), [Correction du TD1](fichiers/gac-td1-correction.pdf)
+- Feuilles d'exercices : [Feuille 0 – révisions](fichiers/gac-feuille0-revisions.pdf), [TD1](fichiers/gac-td1-2025-2026.pdf), [Correction du TD1](fichiers/gac-td1-correction.pdf), [TD2](fichiers/gac-td2-2026-2027.pdf)
 - Sujets : [Contrôle seconde session 2025](fichiers/gac-sujet-2025-seconde-session.pdf), [Examen blanc n°1](fichiers/gac-examen-blanc-1.pdf) *(à garder pour l'entraînement en conditions réelles)*
 
 ## ❓ Questions à poser au prof
