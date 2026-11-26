@@ -81,6 +81,7 @@ Toutes dans [fichiers](fichiers/) :
 - Écrit 1, corrigés : [2022-2023](fichiers/cd-ecrit1-2022-2023-corrige.pdf), [2024-2025](fichiers/cd-ecrit1-2024-2025-corrige.pdf), [2025-2026 (prof)](fichiers/cd-ecrit1-2025-2026-corrige.pdf), [2025-2026 (détaillé)](fichiers/cd-ecrit1-2025-2026-corrige-detaille.pdf), [2026-2027 (détaillé)](fichiers/cd-ecrit1-2026-2027-corrige-detaille.pdf)
 - Contrôles blancs de 30 min sur les TD4 et TD5 (6 sujets, sans corrigé) : [cd-controles-blancs-td4-td5.pdf](fichiers/cd-controles-blancs-td4-td5.pdf)
 - TCE3 2025-2026 : [sujet](fichiers/cd-tce3-2025-2026-sujet.jpg) ([corrigé](fichiers/cd-tce3-2025-2026-corrige.pdf))
+- TCE4 (démonstration de l'inversion locale et des fonctions implicites) : [sujet](fichiers/cd-tce4-sujet.pdf) ([corrigé](fichiers/cd-tce4-corrige.pdf))
 - Partiels blancs : [n° 5](fichiers/cd-partiel-blanc-5.pdf) ([corrigé](fichiers/cd-partiel-blanc-5-corrige.pdf)), [n° 6](fichiers/cd-partiel-blanc-6.pdf) ([corrigé](fichiers/cd-partiel-blanc-6-corrige.pdf))
 
 ## ❓ Questions à poser au prof
